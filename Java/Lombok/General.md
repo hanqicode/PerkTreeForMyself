@@ -23,3 +23,23 @@ public void doSomething(@NonNull final String name) {
 	// omitted here
 }
 ```
+### @Getter & @Setter
+[Detailed link](https://projectlombok.org/features/GetterSetter)
+
+Add `@Getter` and `@Setter` to any field to let lombok generate the default getter/setter automatically.
+
+The generated getter/setter method is `public` access level by default.
+
+You can specify it with `AccessLevel`.
+
+```java
+public class GetterSetterExample {
+
+    @Getter
+    @Setter
+    private int age = 30;
+
+    @Setter(AccessLevel.PROTECTED)
+    private String name;
+}
+```

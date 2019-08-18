@@ -20,7 +20,7 @@ It will throw `NullPointerException` if it is null.
 
 ```java
 public void doSomething(@NonNull final String name) {
-	// omitted here
+    // omitted here
 }
 ```
 
@@ -98,3 +98,25 @@ public class ValueExample {
     double score;
 }
 ```
+
+### @Builder
+[Detailed link](https://projectlombok.org/features/Builder)
+
+`@Builder` annotation produces complex builder APIs for your classes.
+
+```java
+@Builder
+public class BuilderExample {
+    private String name;
+    private int age;
+    private String group;
+    private String country;
+    // omitted here
+}
+```
+
+> The Builder pattern is a good choice when designing classes whose constructors or static factories would have more than a handful of parameters. - Effective Java
+
+## Reference
+1. Lombok
+2. Effective Java

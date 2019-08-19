@@ -3,10 +3,10 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 1. Java/BlockingQueue
+1. Reading/Clean Code
 
 # To-do List
 1. AWS/
-1. Reading/Clean Code
 1. Reading/Designing Data-Intensive Applications
 1. Reading/A Philosophy of Software Design
 1. Reading/Building Evolutionary Architechtures: Support Constant Change

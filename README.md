@@ -17,7 +17,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - Designing Data-Intensive Applications
   - A Philosophy of Software Design
   - Building Evolutionary Architechtures: Support Constant Change
-  - Streaming Systems:The What, Where, When, and How of Large-Scale Data Processing
+  - Streaming Systems: The What, Where, When, and How of Large-Scale Data Processing
 
 # Table of Contents
 ## Java

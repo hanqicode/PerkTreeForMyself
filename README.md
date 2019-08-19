@@ -16,3 +16,5 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 ## Java
 - EasyMock
 - Lombok
+## Reading
+- Effective Java

@@ -3,7 +3,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - Reading/A Philosophy of Software Design
-- Guava/Caches: [UserGuide](https://github.com/google/guava/wiki/CachesExplained)
+- AWS/DynamoDB
 
 # To-do List
 - Java/
@@ -13,7 +13,6 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - Cache/*
 
 - AWS/
-  - DynamoDB
   - SNS
   - SQS
   - Kinesis

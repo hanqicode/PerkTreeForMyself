@@ -2,11 +2,11 @@
 This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
-1. Reading/Clean Code
+- Reading/A Philosophy of Software Design
+- Guava/Caches: [UserGuide](https://github.com/google/guava/wiki/CachesExplained)
 
 # To-do List
 - Java/
-  - Guava/Caches: [UserGuide](https://github.com/google/guava/wiki/CachesExplained)
   - Concurrent/ExecutorService
 
 - Back-End/
@@ -20,7 +20,6 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - Lambda
  
 - Reading/
-  - A Philosophy of Software Design
   - Building Evolutionary Architechtures: Support Constant Change
   - Designing Distrubuted Systems
   - Designing Data-Intensive Applications
@@ -34,3 +33,4 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 ## Reading
 - Effective Java
+- Clean Code

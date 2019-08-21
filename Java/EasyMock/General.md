@@ -81,7 +81,9 @@ Some comments:
 1. Extending or creating an object `EasyMockSupport` is useful but not mandatory. It allows to call `replayAll`, `resetAll` and `verifyAll`.
 2. Use annotations to make it concise: Add `@Mock` and `@RunWith(EasyMockRunner.class)` instead of using `createMock`.
 3. Use `MockType.STRICT` to check the order of method calls.
+4. Use `Build-Operate-Check Pattern` for test.
 
 ## Reference
 1. EasyMock Homepage: http://easymock.org/
+2. Clean Code.
 

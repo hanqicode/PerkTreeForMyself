@@ -60,16 +60,16 @@ public class EasyMockExample extends EasyMockSupport {
 
     @Test
     public void testWithEasyMock() {
-        // expect
+        // build
         expect(collaborator.documentAdded("Title")).andReturn(true).times(1);
         expect(collaborator.getDocumentCount()).andReturn(1).times(1);
         replayAll();
 
-        // test
+        // operate
         boolean actualStatus = target.addDocument("Title");
         int actualCount = target.getDocumentCount();
 
-        // verify
+        // check
         verifyAll();
         assertTrue(actualStatus);
         assertEquals(1, actualCount);

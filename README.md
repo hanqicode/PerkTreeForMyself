@@ -3,7 +3,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - Reading/A Philosophy of Software Design
-- AWS/DynamoDB - [Free Digital Training](https://www.aws.training/Details/Video?id=16021)
+- AWS/DynamoDB - [API Docs Bookmark](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
 
 # To-do List
 - Java/

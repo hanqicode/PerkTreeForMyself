@@ -17,6 +17,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - SQS
   - Kinesis
   - Lambda
+  - CloudWatch
  
 - Reading/
   - Building Evolutionary Architechtures: Support Constant Change

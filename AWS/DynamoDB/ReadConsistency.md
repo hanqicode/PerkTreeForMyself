@@ -5,7 +5,7 @@ Link: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWork
 ## Eventually Consistent Reads
 DynamoDB may return a response including stale data, for a maximum duration of 20 seconds.
 
-If you repeat your read requests after a short time, the response should return the latest data.
+If you repeat your read requests after a short time, the response should return the latest data eventually.
 
 ## Strongly Consistent Reads
 DynamoDB returns a response with the most up-to-date data.

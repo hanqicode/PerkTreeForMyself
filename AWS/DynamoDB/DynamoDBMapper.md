@@ -63,3 +63,31 @@ public class BookItem {
     private String id;
 }
 ```
+
+## DynamoDBMapper Class
+Link: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBMapper.Methods.html
+
+Here are some basic operations.
+
+#### save: create/update
+If an item that has the same primary key does not exist, this method creates a new item in the table. 
+If an item that has the same primary key exists, it updates the existing item. 
+
+#### load: read
+Retrieves an item from a table. You must provide the primary key of the item that you want to retrieve.
+
+We are choose to use `Strongly Consistent Read`. Refer to **ReadConsistency.md**.
+
+```java
+CatalogItem item = mapper.load(CatalogItem.class, item.getId(), 
+                new DynamoDBMapperConfig(DynamoDBMapperConfig.ConsistentReads.CONSISTENT)); 
+```
+
+#### delete
+Deletes an item from the table. You must pass in an object instance of the mapped class.
+
+#### query
+This method requires you to provide a partition key value and a query filter that is applied on the sort key.
+
+#### scan
+Scans an **entire table** or a secondary index. You can optionally specify a FilterExpression to filter the result set.

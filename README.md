@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - Reading/A Philosophy of Software Design - 18/201
-- AWS/DynamoDB - [API Docs Bookmark](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Programming.Errors.html)
+- AWS/DynamoDB - [API Docs Bookmark](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithDynamo.html)
 
 # To-do List
 - Java/

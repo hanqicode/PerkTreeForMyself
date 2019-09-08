@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - Reading/A Philosophy of Software Design - 18/201
-- AWS/DynamoDB - [API Docs Bookmark](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithDynamo.html)
+- AWS/SNS - [SNS Homepage](https://aws.amazon.com/sns/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc)
 
 # To-do List
 - Java/
@@ -15,7 +15,6 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - Cache/*
 
 - AWS/
-  - SNS
   - SQS
   - Kinesis
   - Lambda
@@ -30,6 +29,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 # Table of Contents
 ## AWS
 - DynamoDB
+- SNS
 
 ## Java
 - Concurrent

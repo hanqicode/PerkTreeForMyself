@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - Reading/A Philosophy of Software Design - 18/201
-- AWS/SNS - [SNS Homepage](https://aws.amazon.com/sns/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc)
+- AWS/SNS - [SNS Developer Doc](https://docs.aws.amazon.com/sns/latest/dg/sns-tutorials.html)
 
 # To-do List
 - Java/

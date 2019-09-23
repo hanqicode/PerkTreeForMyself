@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - Reading/A Philosophy of Software Design - 18/201
-- AWS/SNS - [SNS Developer Doc](https://docs.aws.amazon.com/sns/latest/dg/sns-common-scenarios.html)
+- AWS/SQS - [SNS Homepage](https://aws.amazon.com/sqs/)
 
 # To-do List
 - Java/
@@ -15,9 +15,8 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - Cache/*
 
 - AWS/
-  - SQS
-  - Kinesis
   - Lambda
+  - Kinesis
   - CloudWatch
  
 - Reading/

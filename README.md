@@ -5,14 +5,14 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - Reading/A Philosophy of Software Design - 18/201
-- AWS/SQS - [SNS Homepage](https://aws.amazon.com/sqs/)
+- AWS/SQS - [SQS Developer Guide](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html)
 
 # To-do List
-- Java/
-  - Concurrent/ExecutorService
-
 - Back-End/
   - Cache/*
+  
+- Bash/
+  - Commands
 
 - AWS/
   - Lambda
@@ -29,6 +29,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 ## AWS
 - DynamoDB
 - SNS
+- SQS
 
 ## Java
 - Concurrent

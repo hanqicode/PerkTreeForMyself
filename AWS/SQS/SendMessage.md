@@ -17,6 +17,9 @@ final SendMessageResult result = client.sendMessage(request);
 System.out.println("SQS message ID: " + result.getMessageId());
 ```
 ## Send Message Attributes
+You can include structured metadata (such as timestamps, geospatial data, signatures, and identifiers) 
+with messages using message attributes.
+
 Here is a simple code:
 ```java
 final AmazonSQS client = AmazonSQSClientBuilder.defaultClient();

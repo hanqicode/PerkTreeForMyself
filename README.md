@@ -9,15 +9,11 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # To-do List
 - Back-End/
-  - Cache/*
+  - HeapDump
+  - Cache
+  - Bash
+  - Log
   
-- Bash/
-  - Commands
-
-- Log/
-  - Slf4j
-  - Log4j2
-
 - AWS/
   - Lambda
   - Kinesis

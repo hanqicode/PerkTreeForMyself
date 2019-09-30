@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - Reading/A Philosophy of Software Design - 18/201
-- AWS/SQS - [SQS Developer Guide](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-basic-architecture.html)
+- AWS/Lambda - Homepage
 
 # To-do List
 - Back-End/
@@ -15,7 +15,6 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - Log
   
 - AWS/
-  - Lambda
   - Kinesis
   - CloudWatch
  

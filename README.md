@@ -12,7 +12,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - HeapDump
   - Cache
   - Bash
-  - Log
+  - Log/ Slf4j + Log4J2
   
 - AWS/
   - Kinesis

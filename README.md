@@ -12,7 +12,6 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - HeapDump
   - Cache
   - Bash
-  - Log/ Slf4j + Log4J2
   
 - AWS/
   - Kinesis
@@ -35,6 +34,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 - EasyMock
 - Guava
 - Lombok
+- Log
 
 ## Reading
 - Effective Java

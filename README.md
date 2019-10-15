@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - Reading/A Philosophy of Software Design - 18/201
-- AWS/Lambda - [Developer Guide](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
+- AWS/Lambda - [Developer Guide](https://docs.aws.amazon.com/lambda/latest/dg/lambda-invocation.html)
 
 # To-do List
 - Back-End/

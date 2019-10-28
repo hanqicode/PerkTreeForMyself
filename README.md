@@ -4,17 +4,17 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 > "You can never understand everything. But, you should push yourself to understand the system." - Ryan Dahl (Creator of Node JS)
 
 # In Progress
-- Reading/A Philosophy of Software Design - 18/201
+- Reading/A Philosophy of Software Design - 33/201
 
 # To-do List
 - Back-End/
-  - HeapDump
-  - Cache
-  - Bash
+  - HeapDump/
+  - Cache/
+  - LinuxCommandLine/
   
 - AWS/
-  - Kinesis
-  - CloudWatch
+  - Kinesis/
+  - CloudWatch/
  
 - Reading/
   - Building Evolutionary Architechtures: Support Constant Change

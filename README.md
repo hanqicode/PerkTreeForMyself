@@ -37,5 +37,6 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 - Log
 
 ## Reading
+All books can be found in Google drive.
 - Effective Java
 - Clean Code

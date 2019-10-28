@@ -5,10 +5,10 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - Reading/A Philosophy of Software Design - 33/201
-- Back-End/LinuxCommandLine - 18/540
+- BackEnd/LinuxCommandLine - 18/540
 
 # To-do List
-- Back-End/
+- BackEnd/
   - HeapDump/
   - Cache/
   

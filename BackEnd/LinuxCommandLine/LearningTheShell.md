@@ -51,3 +51,13 @@ For last 3 chars, are for everyone.
 `file`: check a file's type. 
 
 Like: `file Demo.iml`. Output: `Demo.iml: XML 1.0 document text, ASCII text`
+
+`less`: to view text files. Press "q" to quit.
+
+Introduce commands briefly in less:
+- /characters: search forward to next occurence of characters.
+- n: search for next occurence of previous search.
+- q: quit less.
+
+> Less Is More. The less program was designed to replace more with more features.
+

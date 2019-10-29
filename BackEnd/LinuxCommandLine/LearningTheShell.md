@@ -3,7 +3,7 @@
 ## What is The Shell?
 The shell is a program that takes keyboard commands and passes them to the operating system to carry out.
 
-Terminal Emulator looks like: `[me@linuxbox ~]% `. Let's try some simple commands.
+Terminal Emulator looks like: `[me@linuxbox ~]$ `. Let's try some simple commands.
 
 `date`: displays the current time and date.
 

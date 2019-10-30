@@ -8,13 +8,16 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 - BackEnd/LinuxCommandLine - 66/540
 
 # To-do List
+- AWS/
+  - Kinesis/
+  - CloudWatch/
+
 - BackEnd/
   - HeapDump/
   - Cache/
   
-- AWS/
-  - Kinesis/
-  - CloudWatch/
+- Network/
+  - ComputerNetworking/
  
 - Reading/
   - Building Evolutionary Architechtures: Support Constant Change

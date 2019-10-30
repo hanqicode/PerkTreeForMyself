@@ -1,6 +1,6 @@
 # Learning the Shell
 
-## What is The Shell?
+## 1 - What Is The Shell?
 The shell is a program that takes keyboard commands and passes them to the operating system to carry out.
 
 Terminal Emulator looks like: `[me@linuxbox ~]$ `. Let's try some simple commands.
@@ -15,7 +15,7 @@ Terminal Emulator looks like: `[me@linuxbox ~]$ `. Let's try some simple command
 
 `exit`: ending a terminal session.
 
-## Navigation
+## 2 - Navigation
 Linux always have a single file system tree, regardless of how many drives or storage devices are attached to the computer.
 
 `pwd`(print working directory): to display the current working directory.
@@ -24,7 +24,7 @@ Linux always have a single file system tree, regardless of how many drives or st
 
 `cd`(change directory): to change your working directory.
 
-## Exploring The System
+## 3 - Exploring The System
 `ls -l`(list with long format): list with more details.
 
 It will print out like below:
@@ -61,3 +61,23 @@ Introduce commands briefly in less:
 
 > Less Is More. The less program was designed to replace more with more features.
 
+## 4 - Manipulating Files And Directories
+
+Wildcard - allows you to select filenames based on patterns of characters.
+
+| Wildcard      | Meaning                        |
+|---------------|--------------------------------|
+| *             | Match any characters           |
+| ?             | Match any Single character     |
+| [characters]  | Match any character in set     |
+| [!characters] | Match any character Not in set |
+
+`cp`(copy): copy files and directories.
+
+`mv`(move): move and rename files.
+
+`mkdir`(make directory): to create directory. E.g. `mkdir dir1 dir2 dir3` can make 3 directories at same time.
+
+`rm`(remove): remove files and directories. E.g. `rm -r dir` to remove a directory.
+
+`ln`(link): create a hard or symbolic links.

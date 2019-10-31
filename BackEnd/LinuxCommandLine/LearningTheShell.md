@@ -81,3 +81,45 @@ Wildcard - allows you to select filenames based on patterns of characters.
 `rm`(remove): remove files and directories. E.g. `rm -r dir` to remove a directory.
 
 `ln`(link): create a hard or symbolic links.
+
+## 5 - Working With Commands
+
+`type`: display a command's type. 
+
+`which`: display an executable's location.
+
+`help`: get help for shell builtins. 
+
+`man`(manual): display a program's manual page.
+
+`info`: display a program's info.
+
+`whatis`: display a very brief description of a command.
+
+`alias`: create own commands. Like: `alias foo='cd /usr; ls'`
+
+## 6 - Redirection
+
+`>`: redirect standard output to another file. Like: `ls -l /usr/bin > ls-output.txt`
+
+`>>`: redirect standard output and **append** to a file.
+
+`|`: Pipeline. Like: `command1 | command2` the stardard **output** of command1 can be piped into the standard **input**
+of command2.
+
+`cat`(concatenate): read one/more files and copies them to standard output.
+
+`sort`: sort the order.
+
+`uniq`: uniq is often used in conjunction with sort. Remove any duplicates from the list.
+
+`grep`: print lines matching a pattern. `grep pattern [file1 file2 ...]`
+
+`wc`(word count): display the number of lines, words, and bytes contained in files. 
+
+Like: `wc test`.
+Output: `       1       5      28 test` (lines, words, bytes)
+
+`head -n N`: print first N lines of a file. Like: `head -n 2`.
+
+`tail -n N`: print last N lines of a file. `tail -f [fileName]`: continue to monitor the file, until you type Ctrl-C.

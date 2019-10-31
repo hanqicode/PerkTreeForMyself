@@ -9,15 +9,18 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # To-do List
 - AWS/
-  - Kinesis/
-  - CloudWatch/
+  - Kinesis
+  - CloudWatch
 
 - BackEnd/
-  - HeapDump/
-  - Cache/
+  - HeapDump
+  - Cache
+
+- Java/
+  - Jackson
   
 - Network/
-  - ComputerNetworking/
+  - ComputerNetworking
  
 - Reading/
   - Building Evolutionary Architechtures: Support Constant Change

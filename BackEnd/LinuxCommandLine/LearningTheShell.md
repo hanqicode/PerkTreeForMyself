@@ -123,3 +123,8 @@ Output: `       1       5      28 test` (lines, words, bytes)
 `head -n N`: print first N lines of a file. Like: `head -n 2`.
 
 `tail -n N`: print last N lines of a file. `tail -f [fileName]`: continue to monitor the file, until you type Ctrl-C.
+
+## 7 - Seeing The World As The Shell Sees It
+
+`echo`: prints out its text **arguments** on standard output. So it will print text actual value.
+1. arithmetic expansion: `echo $((2 + 2))`.

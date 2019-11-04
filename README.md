@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - Reading/A Philosophy of Software Design - 158/201
-- BackEnd/LinuxCommandLine - 104/540
+- BackEnd/LinuxCommandLine - 113/540
 
 # To-do List
 - AWS/

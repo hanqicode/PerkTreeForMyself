@@ -128,3 +128,15 @@ Output: `       1       5      28 test` (lines, words, bytes)
 
 `echo`: prints out its text **arguments** on standard output. So it will print text actual value.
 1. arithmetic expansion: `echo $((2 + 2))`.
+
+## 8 - Advanced Keyboard Tricks
+`clear`: clear the screen.
+
+`history`: display history of commands used.
+
+Cursor Movement Commands:
+`ctrl + a`: move to the beginning of the line.
+`ctrl + e`: move to the end of the line.
+
+## 9 - Permission
+//TODO

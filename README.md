@@ -4,8 +4,8 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 > "You can never understand everything. But, you should push yourself to understand the system." - Ryan Dahl (Creator of Node JS)
 
 # In Progress
-- Reading/A Philosophy of Software Design - 158/201
 - BackEnd/LinuxCommandLine - 133/540
+- Java/HeapDump
 
 # To-do List
 - AWS/
@@ -13,7 +13,6 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - CloudWatch
 
 - BackEnd/
-  - HeapDump
   - Cache/Reading: Web Caching
 
 - Java/
@@ -48,6 +47,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 - Lombok
 
 ## Reading
-All books can be found in Google drive.
+All books can be found in Google drive. List by read order.
 - Effective Java
 - Clean Code
+- A Philosophy of Software Design

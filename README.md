@@ -13,14 +13,14 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - CloudWatch
 
 - BackEnd/
-  - Cache/Reading: Web Caching
+  - Cache/Reading + Summarize: Web Caching
 
 - Java/
   - Exception
   - Jackson
   
 - Network/
-  - Reading: ComputerNetworking
+  - Reading + Summarize: ComputerNetworking
  
 - Reading/
   - Head First Design Pattern

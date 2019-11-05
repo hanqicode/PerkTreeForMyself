@@ -139,4 +139,14 @@ Cursor Movement Commands:
 `ctrl + e`: move to the end of the line.
 
 ## 9 - Permission
+`id`(identity): display user identity.
+
+`chmod`(change file mode): to change the mode of a file or directory.
+chmod <octal(base_8) number>, because octal number represents 3 binary digits -> read, write, execute.
+
+`sudo`(super user do).
+
+`chown`(change file owner and group).
+
+## 10 - Processes
 //TODO

@@ -149,4 +149,20 @@ chmod <octal(base_8) number>, because octal number represents 3 binary digits ->
 `chown`(change file owner and group).
 
 ## 10 - Processes
-//TODO
+`ps`(process): provide a snapshot of the machine's state at the moment.
+```
+  PID TTY           TIME CMD
+48240 ttys000    0:00.72 /bin/zsh --login -i
+58881 ttys001    0:00.05 /Applications/iTerm.app/Contents/MacOS/iTerm2 --server login -fp qqihan
+58883 ttys001    0:00.68 -zsh
+```
+As we can see: 
+- PID(Process ID) is in ascending order. 
+- TTY(Teletype) refers to controlling terminal for the process.
+- TIME is the amount of CPU time consumed by the process.
+
+We can use `px aux` to see more information, including CPU percentage, MEM percentage.
+
+`top`: to see a dynamic view of a machine's activity.
+
+`kill`: kill processes to terminate programs. `kill -<single> <PID>` -> `kill -9 1234`

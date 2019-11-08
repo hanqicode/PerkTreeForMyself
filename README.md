@@ -23,7 +23,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - Reading + Summarize: ComputerNetworking
  
 - Reading/
-  - Head First Design Pattern
+  - Java Design Pattern
   - Building Evolutionary Architechtures: Support Constant Change
   - Designing Distrubuted Systems
   - Designing Data-Intensive Applications

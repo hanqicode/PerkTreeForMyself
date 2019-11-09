@@ -5,6 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - BackEnd/LinuxCommandLine - 192/540
+- Java/Exception
 
 # To-do List
 - AWS/
@@ -15,7 +16,6 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - Cache/Reading + Summarize: Web Caching
 
 - Java/
-  - Exception
   - Jackson
   
 - Network/

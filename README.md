@@ -5,7 +5,6 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - BackEnd/LinuxCommandLine - 192/540
-- Java/HeapDump
 
 # To-do List
 - AWS/
@@ -28,6 +27,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - Designing Distrubuted Systems
   - Designing Data-Intensive Applications
   - Streaming Systems: The What, Where, When, and How of Large-Scale Data Processing
+  - Redis Cookbok
 
 # Table of Contents
 ## AWS

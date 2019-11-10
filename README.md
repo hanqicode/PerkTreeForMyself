@@ -4,7 +4,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 > "You can never understand everything. But, you should push yourself to understand the system." - Ryan Dahl (Creator of Node JS)
 
 # In Progress
-- BackEnd/LinuxCommandLine - 192/540
+- BackEnd/LinuxCommandLine - 237/540
 - Java/Design Pattern - 1/173
 
 # To-do List

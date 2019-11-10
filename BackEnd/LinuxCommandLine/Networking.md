@@ -32,4 +32,12 @@ In macbook terminal:
 1. `scp qqihan@<timber_host_name>:/tmp/qqihan/logs.txt     /Users/qqihan/Desktop`
 2. `scp -r qqihan@<timber_host_name>:/tmp/qqihan/             /Users/qqihan/Desktop`
 
-## 
+## Secure Communication With Remote Hosts
+`ssh`(Secure Shell):
+
+Why need SSH?
+1. It authenticates the remote host (to prevent man-in-the-middle attack).
+2. It encrypts all of communications.
+
+How does SSH work?
+1. An SSH server on remote host and listening on port 22.

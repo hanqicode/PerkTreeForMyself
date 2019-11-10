@@ -3,7 +3,7 @@
 ## What is Design Pattern?
 Design Patterns are **general reusable** solution to **commonly occuring** problems.
 
-They can be used as a tempalte which can be applied to a real problem.
+They can be used as a template which can be applied to a real problem.
 
 ## Why need Design Pattern?
 1. Best practice - has been used by millions software development.

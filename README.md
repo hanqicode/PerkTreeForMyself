@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - BackEnd/LinuxCommandLine - 192/540
-- Java Design Pattern - 1/173
+- Java/Design Pattern - 1/173
 
 # To-do List
 - AWS/
@@ -13,15 +13,13 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - CloudWatch
 
 - BackEnd/
-  - Cache/Reading + Summarize: Web Caching
+  - Cache/Web Caching
 
 - Java/
   - Jackson
-  
-- Network/
-  - Reading + Summarize: ComputerNetworking
  
 - Reading/
+  - ComputerNetworking
   - Building Evolutionary Architechtures: Support Constant Change
   - Designing Distrubuted Systems
   - Designing Data-Intensive Applications

@@ -21,4 +21,15 @@ PING google.com (172.217.3.174): 56 data bytes
 round-trip min/avg/max/stddev = 3.011/4.352/6.351/1.196 ms
 ```
 
-``
+## Transporting Files Over A Network
+`ftp`(File Transfer Protocol): is used for file download.
+
+It is NOT secure because it sends account names and passwords in plaintext.
+
+`scp`(Secure Copy Protocol): to copy file between hosts on a network. It uses SSH for data transfer and provides the same security as SSH.
+
+In macbook terminal:
+1. `scp qqihan@<timber_host_name>:/tmp/qqihan/logs.txt     /Users/qqihan/Desktop`
+2. `scp -r qqihan@<timber_host_name>:/tmp/qqihan/             /Users/qqihan/Desktop`
+
+## 

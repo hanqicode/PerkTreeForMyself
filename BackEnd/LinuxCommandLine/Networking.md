@@ -26,12 +26,6 @@ round-trip min/avg/max/stddev = 3.011/4.352/6.351/1.196 ms
 
 It is NOT secure because it sends account names and passwords in plaintext.
 
-`scp`(Secure Copy Protocol): to copy file between hosts on a network. It uses SSH for data transfer and provides the same security as SSH.
-
-In macbook terminal:
-1. `scp qqihan@<timber_host_name>:/tmp/qqihan/logs.txt     /Users/qqihan/Desktop`
-2. `scp -r qqihan@<timber_host_name>:/tmp/qqihan/             /Users/qqihan/Desktop`
-
 ## Secure Communication With Remote Hosts
 `ssh`(Secure Shell):
 
@@ -41,3 +35,9 @@ Why need SSH?
 
 How does SSH work?
 1. An SSH server on remote host and listening on port 22.
+
+`scp`(Secure Copy Protocol): to copy file between hosts on a network. It uses SSH for data transfer and provides the same security as SSH.
+
+In macbook terminal:
+1. `scp qqihan@<timber_host_name>:/tmp/qqihan/logs.txt     /Users/qqihan/Desktop`
+2. `scp -r qqihan@<timber_host_name>:/tmp/qqihan/             /Users/qqihan/Desktop`

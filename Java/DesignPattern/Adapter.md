@@ -21,8 +21,6 @@ Picture like below:
 Say we have a Weblab interface and Weblab implementation currently. Like below:
 
 ```java
-package adapter;
-
 public interface Weblab {
 
     String getTreatment(String id);
@@ -30,8 +28,6 @@ public interface Weblab {
 ```
 
 ```java
-package adapter;
-
 public class WeblabImpl implements Weblab {
 
     private WeblabClient client;
@@ -65,8 +61,6 @@ public class Test {
 Now, we have a requirement to use `RandomClient` to replace `WeblabClient`, but we do not want to change the `Weblab` interface. Here we need to create an adapter. Like below:
 
 ```java
-package adapter;
-
 public class RandomToWeblabAdapter implements Weblab {
 
     private RandomClient client;
@@ -98,3 +92,7 @@ public class Test {
     }
 }
 ```
+
+## Notes
+1. It would not require to change most of existing business logic code, like in `Test` class.
+2. Personally, I would say this is useful and safe when `Weblab` interface existing in many classes and we are not willing to change them all. But I prefer to deprecate `Weblab` interface or renaming at least if we decide not to use `WeblabClient` anymore. Just want to make it more clear.

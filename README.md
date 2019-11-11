@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - BackEnd/LinuxCommandLine - 237/540
-- Java/Design Pattern - 5/173
+- Java/Design Pattern - 13/173
 
 # To-do List
 - AWS/

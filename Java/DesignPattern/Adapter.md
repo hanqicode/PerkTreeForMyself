@@ -13,4 +13,4 @@ Then we need an adapter to
 
 Picture like below:
 
-![adapter](https://github.com/hanqicode/PerkTreeForMyself/blob/master/Java/DesignPattern/Pictures/Adapter.png)
+<img src="https://github.com/hanqicode/PerkTreeForMyself/blob/master/Java/DesignPattern/Pictures/Adapter.png" alt="drawing" width="400"/>

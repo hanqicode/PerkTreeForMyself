@@ -31,7 +31,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 - SQS
 
 ## BackEnd
-- Cache
+- Redis
 - LinuxCommandLine
 
 ## Java

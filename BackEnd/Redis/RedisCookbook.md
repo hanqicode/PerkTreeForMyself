@@ -1,4 +1,5 @@
 # Redis Cookbook
+Also refer to [Redis Quick Start](https://redis.io/topics/quickstart)
 
 ## What is Redis?
 It is a data structure server with an in-memory dataset for speed.
@@ -30,3 +31,6 @@ OK
 $ redis-cli get myname
 "hanqi"
 ```
+
+## Using Redis from Application
+// Learn access with Java

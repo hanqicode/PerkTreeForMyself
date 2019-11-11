@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - Java/Design Pattern - 13/173
-- BackEnd/Web Caching - 1/367
+- BackEnd/Redis Cookbook - 1/72
 
 # To-do List
 - AWS/
@@ -21,7 +21,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - Designing Distrubuted Systems
   - Designing Data-Intensive Applications
   - Streaming Systems: The What, Where, When, and How of Large-Scale Data Processing
-  - Redis Cookbok
+  - Web Caching
 
 # Table of Contents
 ## AWS

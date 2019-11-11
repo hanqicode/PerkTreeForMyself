@@ -12,9 +12,6 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - Kinesis
   - CloudWatch
 
-- BackEnd/
-  - Cache/Web Caching
-
 - Java/
   - Jackson
  

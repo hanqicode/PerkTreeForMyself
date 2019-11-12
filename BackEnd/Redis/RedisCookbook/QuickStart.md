@@ -47,6 +47,3 @@ jedis.set("myName", "hanqi");
 String value = jedis.get("myName");
 System.out.println(value);
 ```
-
-## Leveraging Redis
-We will see how we can leverage Redis's data structures, speed and flexibility to resolve system limitations and problems.

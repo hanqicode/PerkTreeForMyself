@@ -7,7 +7,8 @@ It is a data structure server with an in-memory dataset for speed.
 ## When to use Redis?
 It would be ideal if we use NoSQL databases, like DynamoDB.
 
-## Start Server
+## Quick Start
+### Start Server
 ```
 $ redis-server
 
@@ -17,13 +18,13 @@ Server initialized
 Ready to accept connections
 ```
 
-## Test Ping
+### Test Ping
 ```
 $ redis-cli ping                                                                                                                 
 PONG
 ```
 
-## Set/Get Value from CLI
+### Set/Get Value from CLI
 ```
 $ redis-cli set myname hanqi                                                                                                  
 OK
@@ -32,5 +33,20 @@ $ redis-cli get myname
 "hanqi"
 ```
 
-## Using Redis from Application
-// Learn access with Java
+### Using Redis from Java Client
+In order to access Redis, we need to use clients.
+
+There are several clients in different programming languages. Here we take Java for example.
+This is [all Java clients](https://redis.io/clients#java).
+
+For example, we use `Jedis`.
+```java
+Jedis jedis = new Jedis("localhost");
+jedis.set("myName", "hanqi");
+
+String value = jedis.get("myName");
+System.out.println(value);
+```
+
+## Leveraging Redis
+We will see how we can leverage Redis's data structures, speed and flexibility to resolve system limitations and problems.

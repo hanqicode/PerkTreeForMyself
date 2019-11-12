@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - Java/Design Pattern - 34/173
-- BackEnd/Redis Cookbook - 29/72
+- BackEnd/Redis Cookbook - 31/72
 
 # To-do List
 - AWS/

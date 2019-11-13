@@ -16,6 +16,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - Jackson
  
 - Reading/
+  - Spock Up & Running
   - ComputerNetworking
   - Designing Distrubuted Systems
   - Designing Data-Intensive Applications

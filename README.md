@@ -4,7 +4,8 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 > "You can never understand everything. But, you should push yourself to understand the system." - Ryan Dahl (Creator of Node JS)
 
 # In Progress
-- Java/Design Pattern - 34/173
+- Reading/Java Design Pattern - 34/173
+- Reading/Redis Cookbook - sdf
 - Reading/Building Evolutionary Architechtures: Support Constant Change - 42/190
 
 # To-do List
@@ -50,5 +51,6 @@ All books can be found in Google drive. List by read order.
 - Effective Java
 - Clean Code
 - A Philosophy of Software Design
+- Java Design Pattern
 - Redis Cookbook
 - Building Evolutionary Architectures

@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - Reading/Java Design Pattern - 34/173
-- Reading/Redis Cookbook - sdf
+- Reading/Redis Cookbook - 31/72
 - Reading/Building Evolutionary Architechtures: Support Constant Change - 42/190
 
 # To-do List
@@ -38,7 +38,6 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 ## Java
 - Concurrent
-- DesignPattern
 - EasyMock
 - Exception
 - Guava

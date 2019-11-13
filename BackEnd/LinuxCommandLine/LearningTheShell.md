@@ -11,7 +11,7 @@ Terminal Emulator looks like: `[me@linuxbox ~]$ `. Let's try some simple command
 
 `df`(disk filesystem): to see current amount of free space on your disk drivers.
 
-`free`(free memory): to see the amount of free memory.
+`free`(free memory): to see the amount of free memory. `free -h`: to display for human.
 
 `exit`: ending a terminal session.
 

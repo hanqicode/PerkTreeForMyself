@@ -21,7 +21,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - Designing Data-Intensive Applications
   - Streaming Systems: The What, Where, When, and How of Large-Scale Data Processing
   - Web Caching
-  - (Amazon.com search **O'Reilly Media**)
+  - (Google search **Amazon O'Reilly Media**)
 
 # Table of Contents
 ## AWS

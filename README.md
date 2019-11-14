@@ -51,6 +51,3 @@ All books can be found in Google drive. List by read order.
 - Effective Java
 - Clean Code
 - A Philosophy of Software Design
-- Java Design Pattern
-- Redis Cookbook
-- Building Evolutionary Architectures

@@ -163,6 +163,6 @@ As we can see:
 
 We can use `px aux` to see more information, including CPU percentage, MEM percentage.
 
-`top`: to see a dynamic view of a machine's activity.
+`top`: to see a dynamic view of a machine's activity. Press `c` to show details.
 
 `kill`: kill processes to terminate programs. `kill -<single> <PID>` -> `kill -9 1234`

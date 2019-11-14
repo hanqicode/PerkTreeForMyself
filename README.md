@@ -4,8 +4,8 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 > "You can never understand everything. But, you should push yourself to understand the system." - Ryan Dahl (Creator of Node JS)
 
 # In Progress
-- Reading/Java Design Pattern - 46/173
 - Reading/Redis Cookbook - 31/72
+- Reading/Java Design Pattern - 46/173
 - Reading/Building Evolutionary Architechtures: Support Constant Change - 42/190
 
 # To-do List

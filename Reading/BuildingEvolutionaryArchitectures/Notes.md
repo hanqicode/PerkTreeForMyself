@@ -21,4 +21,10 @@ Should have lowly coupled components inside the system.
 
 Prevent cycle between couples. We could leverage *JDepend* open source tool to test.
 
-## Chapter 5. Evolutionary Data
+## Chapter 6. Building Evolvable Architectures
+Three steps:
+1. Identify which dimensions of the architecture we want to protect as it evolves.
+2. Define fitness functions for each dimension, such as preventing component dependency cycles, make a wiki for dimensinos deserve ongoing attention.
+3. Use pipeline to automate fitness functions. 
+
+> Understand the business problem before choosing an architecture...While this advice seems obvious, we constantly see teams that have chosen the shiniest new architectural pattern rather than the most appropriate one suffer.  - Page 112. (Similar to Domain Driven Design)

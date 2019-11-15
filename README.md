@@ -17,12 +17,13 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - Jackson
  
 - Reading/
+  - Domain Driven Design
+  - Clean Architecture
   - Spock Up & Running
   - ComputerNetworking
-  - Designing Distrubuted Systems
   - Designing Data-Intensive Applications
   - Streaming Systems: The What, Where, When, and How of Large-Scale Data Processing
-  - Web Caching
+  - Designing Distrubuted Systems
   - (Google search **Amazon O'Reilly Media**)
 
 # Table of Contents

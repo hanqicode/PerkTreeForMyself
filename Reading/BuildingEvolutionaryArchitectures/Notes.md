@@ -28,3 +28,12 @@ Three steps:
 3. Use pipeline to automate fitness functions. 
 
 > Understand the business problem before choosing an architecture...While this advice seems obvious, we constantly see teams that have chosen the shiniest new architectural pattern rather than the most appropriate one suffer.  - Page 112. (Similar to Domain Driven Design)
+
+> Don’t build an architecture just because it will be fun meta-work. - Page 115
+
+> Identify and remove needless variability. - Page 123
+
+> Make as many decisions as possible reversible (without over- engineering). - Page 124
+
+> While architects can’t predict the future, we can at least lower the cost of change so that it doesn’t impact us so nega‐ tively. - Page 126
+

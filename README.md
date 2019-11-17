@@ -6,7 +6,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 # In Progress
 - Reading/Redis Cookbook - 31/72
 - Reading/Java Design Pattern - 76/173
-- Reading/Building Evolutionary Architechtures: Support Constant Change - 137/190
+- Reading/Building Evolutionary Architechtures: Support Constant Change - 139/190
 
 # To-do List
 - AWS/

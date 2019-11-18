@@ -43,3 +43,10 @@ public class API {
 ```
 
 See?
+
+## Notes
+So when should we use Factory pattern and when should we use switch case?
+
+I think if our class has some dependencies but with same interface, then we should use Factory pattern to release our 
+class burden;  
+if switch case is not relevant to above case, I think it's suitable to use switch case.

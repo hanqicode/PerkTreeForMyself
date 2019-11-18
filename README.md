@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - Reading/Redis Cookbook - 31/72
-- Reading/Java Design Pattern - 92/173
+- Reading/Java Design Pattern - 116/173
 - AWS/Kinesis Data Stream - [Developer Guide](https://docs.aws.amazon.com/streams/latest/dev/security.html)
 
 # To-do List

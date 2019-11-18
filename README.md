@@ -6,10 +6,10 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 # In Progress
 - Reading/Redis Cookbook - 31/72
 - Reading/Java Design Pattern - 92/173
+- AWS/Kinesis
 
 # To-do List
 - AWS/
-  - Kinesis
   - CloudWatch
 
 - Java/
@@ -28,6 +28,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 # Table of Contents
 ## AWS
 - DynamoDB
+- Kinesis
 - Lambda
 - SNS
 - SQS

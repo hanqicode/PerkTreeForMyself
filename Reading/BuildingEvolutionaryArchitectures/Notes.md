@@ -38,8 +38,6 @@ Three steps:
 > While architects can’t predict the future, we can at least lower the cost of change so that it doesn’t impact us so nega‐ tively. - Page 126
 
 ## Chapter 7. Evolutionary Architecture Pitfalls and Antipatterns
-
-### Technical Architecture
 Do not be a vendor king.
 > To escape this antipattern, treat all software as just another integration point, even if it initially has broad responsibilities. - Page 138
 
@@ -52,5 +50,4 @@ Code reuse antipattern.
 
 > Always understand the problem domain before choosing an architecture rather than the other way around. - Page 145
 
-### Buiness Concerns
-//TODO
+## Chapter 8. Putting Evolutionary Architecture into Practice

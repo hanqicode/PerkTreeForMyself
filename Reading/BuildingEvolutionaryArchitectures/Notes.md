@@ -39,6 +39,7 @@ Three steps:
 
 ## Chapter 7. Evolutionary Architecture Pitfalls and Antipatterns
 
+### Technical Architecture
 Do not be a vendor king.
 > To escape this antipattern, treat all software as just another integration point, even if it initially has broad responsibilities. - Page 138
 
@@ -47,3 +48,9 @@ Code reuse antipattern.
 
 > Making code reusable involves adding additional options and decision points to accommodate the different uses. The more developers add hooks to enable reusability the more they harm the basic usability of the code. - Page 143
 
+> When coupling points impede evolution or other importance architectural characteristics, break the coupling by forking or duplication. - Page 144
+
+> Always understand the problem domain before choosing an architecture rather than the other way around. - Page 145
+
+### Buiness Concerns
+//TODO

@@ -41,3 +41,9 @@ Three steps:
 
 Do not be a vendor king.
 > To escape this antipattern, treat all software as just another integration point, even if it initially has broad responsibilities. - Page 138
+
+Code reuse antipattern.
+> Clearly, the ability to reuse code is good. However, like all good ideas, many companies abuse this idea and create problems for themselves. - Page 142
+
+> Making code reusable involves adding additional options and decision points to accommodate the different uses. The more developers add hooks to enable reusability the more they harm the basic usability of the code. - Page 143
+

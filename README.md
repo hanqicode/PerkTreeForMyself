@@ -6,7 +6,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 # In Progress
 - Reading/Redis Cookbook - 31/72
 - Reading/Java Design Pattern - 92/173
-- AWS/Kinesis
+- AWS/Kinesis Data Stream
 
 # To-do List
 - AWS/

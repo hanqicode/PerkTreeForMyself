@@ -38,7 +38,7 @@ Three steps:
 
 > Make as many decisions as possible reversible (without over- engineering). - Page 124
 
-> While architects can’t predict the future, we can at least lower the cost of change so that it doesn’t impact us so nega‐ tively. - Page 126
+> While architects can’t predict the future, we can at least lower the cost of change so that it doesn’t impact us so negatively. - Page 126
 
 ## Chapter 7. Evolutionary Architecture Pitfalls and Antipatterns
 Do not be a vendor king.
@@ -51,4 +51,5 @@ Code reuse antipattern.
 
 > When coupling points impede evolution or other importance architectural characteristics, break the coupling by forking or duplication. - Page 144
 
+Like: Domain-Driven Design
 > Always understand the problem domain before choosing an architecture rather than the other way around. - Page 145

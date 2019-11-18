@@ -6,6 +6,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 # In Progress
 - Reading/Redis Cookbook - 31/72
 - Reading/Java Design Pattern - 116/173
+- Reading/Domain Driven Design - 37/795
 
 # To-do List
 - AWS/
@@ -15,7 +16,6 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - Jackson
  
 - Reading/
-  - Domain Driven Design
   - Clean Architecture
   - Spock Up & Running
   - ComputerNetworking

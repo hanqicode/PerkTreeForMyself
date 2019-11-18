@@ -6,7 +6,6 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 # In Progress
 - Reading/Redis Cookbook - 31/72
 - Reading/Java Design Pattern - 92/173
-- Reading/Building Evolutionary Architechtures: Support Constant Change - 156/190
 
 # To-do List
 - AWS/
@@ -52,3 +51,4 @@ All books can be found in Google drive. List by read order.
 - Effective Java
 - Clean Code
 - A Philosophy of Software Design
+- Building Evolutionary Architechtures: Support Constant Change

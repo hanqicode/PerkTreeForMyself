@@ -11,10 +11,13 @@ There are two aspects of incremental change: development(build), operational(dep
 ## Chapter 4. Architectural Coupling
 There are 3 criteria for a good evolutionary architecture:
 1. Incremental change  
-Making any change should not be difficult.
+   - Making any change should not be difficult.  
+   - Have pipeline to have different stages.
 
 2. Guided change with fitness functions  
 Architecure should be clearly defined and have protective tests.
+   - Test for class functionality.
+   - Test for class dependency.
 
 3. Appropriate coupling  
 Should have lowly coupled components inside the system.

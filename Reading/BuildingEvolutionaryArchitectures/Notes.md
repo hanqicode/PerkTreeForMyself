@@ -52,5 +52,3 @@ Code reuse antipattern.
 > When coupling points impede evolution or other importance architectural characteristics, break the coupling by forking or duplication. - Page 144
 
 > Always understand the problem domain before choosing an architecture rather than the other way around. - Page 145
-
-## Chapter 8. Putting Evolutionary Architecture into Practice

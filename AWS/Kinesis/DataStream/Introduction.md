@@ -48,3 +48,6 @@ If you encounter API throttling, we encourage you to request a
 This is a high level overview of using Kinesis data stream:
 
 <img src="https://github.com/hanqicode/PerkTreeForMyself/blob/master/AWS/Kinesis/DataStream/Pictures/HighLevel.png" alt="drawing" width="800"/>
+
+## With Lambda
+[Reference](https://docs.aws.amazon.com/lambda/latest/dg/with-kinesis.html)

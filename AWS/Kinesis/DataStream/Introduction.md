@@ -4,14 +4,18 @@
 [Introduction](https://docs.aws.amazon.com/streams/latest/dev/introduction.html)
 
 ### Data Stream
-Amazon Kinesis Data Streams ingests a large amount of data in real time, durably stores the data,
-and makes the data available for consumption.
+A Kinesis data stream is a set of shards.
 
-The unit of data stored by Kinesis Data Streams is a *data record*. 
-A *data stream* represents a group of data records. 
-The data records in a data stream are distributed into *shards*.
+Each shard has a sequence of data records.
 
-A shard has a sequence of data records in a stream.
+A data record is the unit of data stored in a Kinesis data stream. 
+Data records are composed of a sequence number, a partition key, and a data blob, which is an immutable sequence of bytes.
+
+When an application puts data into a stream, it must specify a partition key.  
+It uses the partition key that is associated with each data record to determine which shard a given data record belongs to.
+
+Each data record has a sequence number that is unique per partition-key within its shard.  
+Kinesis Data Streams assigns the sequence number after you write to the stream
 
 ### Producer
 A producer puts data records into Amazon Kinesis data streams.
@@ -27,6 +31,11 @@ If you have enough partition keys, the data can be evenly distributed across the
 ### Consumer
 A consumer, known as an Amazon Kinesis Data Streams application, 
 is an application that you build to read and process data records from Kinesis data streams.
+
+An Amazon Kinesis Data Streams application commonly runs on a fleet of EC2 instances.
+
+### Kinesis Client Library
+The Kinesis Client Library is compiled into your application to enable fault-tolerant consumption of data from the stream. 
 
 ### Limits
 Like most AWS APIs, Kinesis Data Streams API operations are rate-limited.

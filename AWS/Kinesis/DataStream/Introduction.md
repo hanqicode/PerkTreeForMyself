@@ -37,4 +37,5 @@ If you encounter API throttling, we encourage you to request a
 [Concepts](https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html)
 
 This is a high level overview of using Kinesis data stream:
-<img src="https://github.com/hanqicode/PerkTreeForMyself/blob/master/AWS/Kinesis/DataStream/Pictures/HighLevel.png" alt="drawing" width="400"/>
+
+<img src="https://github.com/hanqicode/PerkTreeForMyself/blob/master/AWS/Kinesis/DataStream/Pictures/HighLevel.png" alt="drawing" width="800"/>

@@ -52,7 +52,7 @@ This is a high level overview of using Kinesis data stream:
 ## With Lambda
 [Reference](https://docs.aws.amazon.com/lambda/latest/dg/with-kinesis.html)
 
-## Difference with <SNS + SQS + Lambda> pattern
+## Difference with SQS
 [See: when should I use Kinesis/SQS?](https://aws.amazon.com/kinesis/data-streams/faqs/)
 
 From input view:

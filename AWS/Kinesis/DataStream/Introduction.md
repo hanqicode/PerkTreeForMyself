@@ -51,3 +51,34 @@ This is a high level overview of using Kinesis data stream:
 
 ## With Lambda
 [Reference](https://docs.aws.amazon.com/lambda/latest/dg/with-kinesis.html)
+
+## Difference with <SNS + SQS + Lambda> pattern
+[See: when should I use Kinesis/SQS?](https://aws.amazon.com/kinesis/data-streams/faqs/)
+
+From input view:
+- If input is enough, then we can use Kinesis firehose to process data and push to other places.
+- If input is not enough, then we need use Lambda to get data from other places to process.
+
+From output view:
+- If there is only one consumer, then SQS is enough;
+- If there are multiple consumers, then Kinesis could provide a feature that all consumers can read data and won't delete data after reading.
+- But SNS + multiple SQS can provide solution to multiple consumers.
+
+From re-read view:
+- Kinesis can be re-read.
+- SQS cannot be re-read.
+
+From scaling view:
+- Kinesis cannot scale automatically.
+- SQS can scale automatically. (Especially when we cannot estimate the peak TPS.)
+> A single Kinesis shard can ingest up to 1 MiB of data per second (including partition keys) or 1,000 records per second for writes.  
+> A megabyte(MB) is then 1,000,000 bytes. A mebibyte(MiB) is the actual 1,048,576 bytes that most intend.
+
+From category view:
+- Kinesis provides shards to category data from input.
+- SQS doesn't have it.
+
+From order view:
+- Kinesis shard provide `sequence number` for ordering the data.
+- SNS + SQS cannot use FIFO queue.
+> Amazon SNS is NOT compatible with FIFO queues.

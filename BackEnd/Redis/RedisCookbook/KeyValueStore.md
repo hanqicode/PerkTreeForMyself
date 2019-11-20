@@ -1,10 +1,8 @@
-# Leveraging Redis
+# Use Redis as a Key/Value Store
 
 We will see how we can leverage Redis's data structures, speed, and flexibility to resolve system limitations and problems.
 
-## Using Redis as a Key/Value Store
-
-### Storing application usage counters
+## Storing application usage counters
 
 Imagine we run a webpage and want to track profile/page visit data. We may have some ideas in mind:
 - We could emit metrics. But this still not a direct number at a glance.
@@ -20,3 +18,4 @@ Like: `visits:orderPage:totals`.
 
 ---
 
+## TODO

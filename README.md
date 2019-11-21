@@ -4,20 +4,18 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 > "You can never understand everything. But, you should push yourself to understand the system." - Ryan Dahl (Creator of Node JS)
 
 # In Progress
-- Reading/Redis Cookbook - 34/72
+- BackEnd/Cache [Wiki](https://en.wikipedia.org/wiki/Cache_(computing))
 - Reading/Domain Driven Design - 77/795
 
 # To-do List
 - AWS/
   - CloudWatch
 
-- BackEnd/
-  - Cache/[Cache Wiki](https://en.wikipedia.org/wiki/Cache_(computing))
-
 - Java/
   - Jackson
  
 - Reading/
+  - RedisCookbook - 34/72
   - Clean Architecture
   - Spock Up & Running
   - ComputerNetworking

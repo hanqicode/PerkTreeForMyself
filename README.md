@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - Reading/Redis Cookbook - 31/72
-- Reading/Domain Driven Design - 61/795
+- Reading/Domain Driven Design - 77/795
 
 # To-do List
 - AWS/

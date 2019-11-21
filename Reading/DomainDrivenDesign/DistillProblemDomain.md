@@ -17,3 +17,5 @@ The model made is only useful for the problems at hand.
 
 ## Domain experts
 Stakeholders may just give you the inputs, outputs of the system; Domain experts will give you a useful model to satisfy the needs.
+
+<img src="https://github.com/hanqicode/PerkTreeForMyself/blob/master/Reading/DomainDrivenDesign/Pictures/DomainExpert.png" alt="drawing" width="600"/>

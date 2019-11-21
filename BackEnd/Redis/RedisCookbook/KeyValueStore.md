@@ -18,4 +18,43 @@ Like: `visits:orderPage:totals`.
 
 ---
 
-## TODO
+## Storing object data in hashes
+If we have a Java object like:
+```java
+@Getter
+class User {
+    private String name;
+    private int age;
+}
+```
+
+Then, its usage likes:
+```bash
+redis> hset user:qqihan name "qqihan"
+redis > hset user:qqihan age 23
+```
+
+To set values:
+```bash
+redis> hset users:jdoe name "John Doe" 
+(integer) 1
+redis> hset users:jdoe email "jdoe@test.com" 
+(integer) 1
+redis> hset users:jdoe phone "+1555313940" 
+(integer) 1
+redis> hincrby users:jdoe visits 1 
+(integer) 1
+```
+
+To get values:
+```bash
+redis> hget users:jdoe email 
+"jdoe@test.com"
+redis> hgetall users:jdoe
+1) "name"
+2) "John Doe"
+3) "email"
+4) "jdoe@test.com" 5) "phone"
+6) "+1555313940" 7) "visits"
+8) "1"
+```

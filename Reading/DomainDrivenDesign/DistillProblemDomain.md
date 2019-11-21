@@ -19,3 +19,20 @@ The model made is only useful for the problems at hand.
 Stakeholders may just give you the inputs, outputs of the system; Domain experts will give you a useful model to satisfy the needs.
 
 <img src="https://github.com/hanqicode/PerkTreeForMyself/blob/master/Reading/DomainDrivenDesign/Pictures/DomainExpert.png" alt="drawing" width="600"/>
+
+## Sketch
+Draw a sketch will help to understand and communicate. 
+
+But, pay attention to keep your diagrams at a consistent level of detail. It’s often better to create multiple diagrams each at a different level of detail.
+
+## Defer naming of concepts in your model
+Naming is important when modeling a domain. Defer naming a concept before you fully understand its functions.
+
+The types of names that you want to avoid are `XXXXService` and `XXXXManager`. If you find yourself appending service or manager to a class or concept, think more creatively, strive for real intent behind a name. When you feel you have really understood a part of the model, you will be in a better place to give it a sensible and meaningful name.
+
+## Impact Map
+What is impact map? Start from the goal, end to technical solution. 
+
+Here is an example:
+
+<img src="https://github.com/hanqicode/PerkTreeForMyself/blob/master/Reading/DomainDrivenDesign/Pictures/ImpactMap.png" alt="drawing" width="600"/>

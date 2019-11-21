@@ -9,7 +9,7 @@ It would be ideal if we use NoSQL databases, like DynamoDB.
 
 ## Quick Start
 ### Start Server
-```
+```bash
 $ redis-server
 
 Port: 6379
@@ -19,18 +19,24 @@ Ready to accept connections
 ```
 
 ### Test Ping
-```
+```bash
 $ redis-cli ping                                                                                                                 
 PONG
 ```
 
 ### Set/Get Value from CLI
-```
+```bash
 $ redis-cli set myname hanqi                                                                                                  
 OK
 
 $ redis-cli get myname
 "hanqi"
+```
+
+### Delete all keys
+```bash
+$ redis-cli FLUSHALL
+OK
 ```
 
 ### Using Redis from Java Client

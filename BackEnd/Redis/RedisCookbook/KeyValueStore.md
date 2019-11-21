@@ -58,3 +58,23 @@ redis> hgetall users:jdoe
 6) "+1555313940" 7) "visits"
 8) "1"
 ```
+
+## Storing user "Circles" using sets
+Sets are a natural fit for circles, because sets represent collections of data, and have native functionality to do interesting things like intersec- tions and unions.
+
+```bash
+redis> sadd circle:jdoe:family users:anna 
+(integer) 1
+redis> sadd circle:jdoe:family users:richard
+(integer) 1
+redis> sadd circle:jdoe:soccer users:anna
+(integer) 1
+```
+
+```bash
+redis> sinter circle:jdoe:family circle:jdoe:soccer
+1) "users:anna"
+redis> sunion circle:jdoe:family circle:jdoe:soccer
+1) "users:anna"
+2) "users:richard"
+```

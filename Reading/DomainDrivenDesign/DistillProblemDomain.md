@@ -36,3 +36,9 @@ What is impact map? Start from the goal, end to technical solution.
 Here is an example:
 
 <img src="https://github.com/hanqicode/PerkTreeForMyself/blob/master/Reading/DomainDrivenDesign/Pictures/ImpactMap.png" alt="drawing" width="600"/>
+
+Think about the problem from:
+1. The final business goal.
+2. The actors.
+3. Ways that actors can take.
+4. Actual tasks that can be carried out.

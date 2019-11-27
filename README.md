@@ -9,6 +9,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 # To-do List
 - AWS/
   - CloudWatch
+  - S3
 
 - Java/
   - Jackson

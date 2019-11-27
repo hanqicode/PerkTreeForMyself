@@ -15,13 +15,14 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - Jackson
  
 - Reading/
-  - RedisCookbook - 34/72
-  - Clean Architecture
   - Spock Up & Running
-  - ComputerNetworking
+  - Computer Networking
+  - Redis Cookbook - 34/72
   - Designing Data-Intensive Applications
+  - Clean Architecture
   - Streaming Systems: The What, Where, When, and How of Large-Scale Data Processing
   - Designing Distrubuted Systems
+  - Make Sense of Stream Processing
   - (Google search **Amazon O'Reilly Media**)
 
 # Table of Contents

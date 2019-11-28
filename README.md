@@ -17,8 +17,8 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 - Reading/
   - Spock Up & Running
   - Computer Networking
-  - Redis Cookbook - 34/72
   - Designing Data-Intensive Applications
+  - Redis Cookbook - 34/72
   - Clean Architecture
   - Streaming Systems: The What, Where, When, and How of Large-Scale Data Processing
   - Designing Distrubuted Systems

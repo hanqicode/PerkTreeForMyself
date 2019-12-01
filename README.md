@@ -4,7 +4,8 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 > "You can never understand everything. But, you should push yourself to understand the system." - Ryan Dahl (Creator of Node JS)
 
 # In Progress
-- Reading/Domain Driven Design - 119/795
+- Reading/Domain Driven Design - 137/795
+- Reading/Spock Up & Running - 1/372
 
 # To-do List
 - AWS/
@@ -15,7 +16,6 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - Jackson
  
 - Reading/
-  - Spock Up & Running
   - Computer Networking
   - Designing Data-Intensive Applications
   - Redis Cookbook - 34/72

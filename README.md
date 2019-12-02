@@ -4,7 +4,6 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 > "You can never understand everything. But, you should push yourself to understand the system." - Ryan Dahl (Creator of Node JS)
 
 # In Progress
-- Reading/Domain Driven Design - 137/795
 - Reading/Spock Up & Running - 42/372
 
 # To-do List
@@ -55,3 +54,4 @@ All books can be found in Google drive. List by read order.
 - A Philosophy of Software Design
 - Building Evolutionary Architechtures: Support Constant Change
 - Java Design Pattern
+- Domain Driven Design

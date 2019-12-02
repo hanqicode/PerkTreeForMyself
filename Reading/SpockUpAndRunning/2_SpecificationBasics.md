@@ -53,10 +53,13 @@ def "a user can follow another user"() {
     given:
         def user = new User("Jack") 
         def other = new User("Bob")
+        
     expect:
         user.following.isEmpty()
+        
     when:
         user.follow(other)
+        
     then:
         user.following.size() == 1
         user.following.contains(other)

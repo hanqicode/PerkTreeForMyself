@@ -12,7 +12,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - S3
 
 - Java/
-  - Jackson
+  - [Jackson](https://github.com/FasterXML/jackson#documentation)
  
 - Reading/
   - Computer Networking

@@ -1,23 +1,5 @@
 # Specification Basics
 
-## First Specification
-```groovy
-import spock.lang.*
-
-class IntegerSpec extends Specification {
-    def "an integer can be incremented"() { 
-        given:
-            int i=1 
-        
-        when:
-            i++ 
-        
-        then:
-            i==2 
-    }
-}
-```
-
 By convention, the specification class name ends with "Spec" but can be anything at all.
 
 ## Block Symantics
@@ -66,3 +48,47 @@ def "a user can follow another user"() {
 }
 ```
 
+## Specification Lifecycle
+
+### Class Variables
+```groovy
+class MySpec extends Specification {
+
+    def user = new User("kirk") 
+    def other = new User("spock")
+    
+    def "a user can follow another user"() { 
+        // Omit here
+    }
+    
+    def "a user reports if they are following someone"() {
+        // Omit here
+    }
+}
+```
+
+Each of two feature methods uses a different actual instance of `user` and `other` because the fields are reinitialized before each feature is run.
+
+### Class Methods
+For `@Before` and `@After` in JUnit, groovy also provides:
+```groovy
+def setupSpec() { // @BeforeClass
+    println "> setupSpec"
+}
+
+def cleanupSpec() { // @AfterClass
+    println "> cleanupSpec"
+}
+
+def setup() { // @Before
+    println "-> setup"
+}
+
+def cleanup() { // @After
+    println "-> cleanup"
+}
+
+def "this is a feature method"() {
+    // omit here
+}
+```

@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - Reading/Domain Driven Design - 137/795
-- Reading/Spock Up & Running - 1/372
+- Reading/Spock Up & Running - 42/372
 
 # To-do List
 - AWS/

@@ -32,9 +32,36 @@ then:
 
 ## Expecting Exceptions
 It's an important consideration when writing tests to not test only the *happy path*.
-```groovy
-then:
-    thrown(UnsupportedOperationException)
-```
 
 `thrown` must apprea in a `then:` block.
+
+```groovy
+def "cannot accept negative integers"() {
+    given:
+        def a = -1
+        def b = 1
+
+    when:
+        myUtil.getSum(a, b)
+
+    then:
+        def e = thrown(IllegalArgumentException)
+        e.message == "a or b cannot below 0."
+}
+```
+
+## Grouping Assertions on the Same Object
+To use `with` keyword:
+```groovy
+def "initial state of a user is correct"() {
+    given:
+        def user = new User("Qi")
+        
+    expect:
+        with(user) {
+            username == "Qi"
+            posts.isEmpty()
+            following.isEmpty()
+        }
+}
+```

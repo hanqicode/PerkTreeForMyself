@@ -40,7 +40,6 @@ public interface Collaborator {
 
 This is the unit test:
 ```java
-@RunWith(EasyMockRunner.class)
 public class EasyMockExample extends EasyMockSupport {
 
     private ClassTested target;
@@ -81,6 +80,7 @@ Some comments:
 1. Extending or creating an object `EasyMockSupport` is useful but not mandatory. It allows to call `replayAll`, `resetAll` and `verifyAll`.
 2. Use `createStrictMock` to check call order.
 3. Use `Build-Operate-Check Pattern` for test.
+4. `@RunWith(EasyMockRunner.class)`: JUnit runner used to process `@Mock` and `@TestSubject` annotations. Note that this runner only works with JUnit 4.5 or higher
 
 ## Reference
 1. EasyMock Homepage: http://easymock.org/

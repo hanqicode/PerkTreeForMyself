@@ -1,8 +1,9 @@
 # Introduction
 
-**Spock** is a test framework built on top of **Groovy**.
+**Spock** is a test framework built on top of **Groovy**.  
+The relationship likes **JUnit** and **Java**.
 
-I would list all advantages here by comparing Spock with JUnit.
+I would list all advantages here **Spock** over **JUnit**.
 
 ## More explicit stack trace
 If using JUnit framework, we could have:

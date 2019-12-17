@@ -4,7 +4,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 > "First, solve the problem. Then, write the code."
 
 # In Progress
-- AWS/CloudWatch [Homepage]()
+- AWS/CloudWatch - [Homepage](https://aws.amazon.com/cloudwatch/)
 - Reading/Computer Networking - 1/889
 
 # To-do List

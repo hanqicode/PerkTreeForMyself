@@ -1,4 +1,5 @@
 # Managing Resources
+Try to use in-memory database(like H2) to test logic(especially unit tests), do not impact real database in Prod.
 
 ## Testing a Persistence Layer
 `DataStore` is an object to wrap a database connection.

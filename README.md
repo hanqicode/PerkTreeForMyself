@@ -1,14 +1,14 @@
 # PerkTreeForMyself
 This is a Bootcamp for me to learn and share software knowledge and skills.
 
-> "You can never understand everything. But, you should push yourself to understand the system." - Ryan Dahl (Creator of Node JS)
+> "First, solve the problem. Then, write the code."
 
 # In Progress
-- Reading/Spock Up & Running - 76/372
+- AWS/CloudWatch [Homepage]()
+- Reading/Computer Networking - 1/889
 
 # To-do List
 - AWS/
-  - CloudWatch
   - S3
 
 - Java/
@@ -16,7 +16,6 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - [OpenCSV](http://opencsv.sourceforge.net/)
  
 - Reading/
-  - Computer Networking
   - Designing Data-Intensive Applications
   - Redis Cookbook - 34/72
   - Clean Architecture
@@ -57,3 +56,4 @@ All books can be found in Google drive. List by read order.
 - Building Evolutionary Architechtures: Support Constant Change
 - Java Design Pattern
 - Domain Driven Design
+- Spock Up & Running

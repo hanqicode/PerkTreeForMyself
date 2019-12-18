@@ -33,3 +33,18 @@ No reservation VS reservation.
 Packet switching can support more users at the same time.
 
 ## Delays
+1. Processing delay: 
+The time required to examine the packet’s header and determine where to direct the packet is part of the processing delay.
+2. Queuing delay:
+It waits to be transmitted onto the link.
+3. Transmission delay:
+Our packet can be transmitted only after all the packets that have arrived before it have been transmitted.
+4. Propagation delay:
+The time required to propagate from the beginning of the link to router B is the propagation delay.
+
+## Protocol Layers
+1. Application: **Message**. e.g. HTTP, SMTP, FTP, DNS. 
+2. Tranport: **segment**. transports application-layer messages between application endpoints. e.g. TCP, UDP.
+3. Network: **datagrams**. moving network-layer packets known as datagrams from one host to another. e.g. IP.
+4. Link: **frames**. the network layer passes the datagram down to the link layer, which delivers the datagram to the next node along the route.
+5. Physical: move the individ- ual bits within the frame from one node to the next.

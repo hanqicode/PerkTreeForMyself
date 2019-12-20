@@ -22,5 +22,3 @@ A process is analogous to a house and its socket is analogous to its door.
 To identify the receiving process, two pieces of information need to be specified: 
 1. the address of the host. (**IP address**)
 2. an identifier that specifies the receiving process in the destination host. (**port number**)
-
-## The Web and HTTP

@@ -92,3 +92,11 @@ For web cache:
 When it receives requests from and sends responses to a browser, it is a server.   
 When it sends requests to and receives responses from an origin server, it is a client.
 
+### The Conditional GET
+When the copy of an object residing in the cache is stale,
+HTTP has a mechanism that allows a cache to verify that its objects are up to date. 
+This mechanism is called **the conditional GET**. 
+
+There are two requirements for the conditional GET:
+1. the request message uses the `GET` method
+2. the request message includes an `If-Modified- Since:` header line

@@ -99,4 +99,4 @@ This mechanism is called **the conditional GET**.
 
 There are two requirements for the conditional GET:
 1. the request message uses the `GET` method
-2. the request message includes an `If-Modified- Since:` header line
+2. the request message includes an `If-Modified-Since:` header line

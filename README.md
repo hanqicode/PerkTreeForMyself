@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - AWS/CloudWatch - [Homepage](https://aws.amazon.com/cloudwatch/)
-- Reading/Computer Networking - 125/889
+- Reading/Computer Networking - 143/889
 
 # To-do List
 - AWS/

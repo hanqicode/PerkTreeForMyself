@@ -1,5 +1,3 @@
-# Application Layer
-
 ## Terminology
 
 ### Processes Communication

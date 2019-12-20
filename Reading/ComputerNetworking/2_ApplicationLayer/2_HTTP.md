@@ -83,3 +83,12 @@ Cookie technology has four components:
 
 Cookies can thus be used to create a user session layer on top of stateless HTTP. 
 
+### Web Caching
+The Web cache(proxy server as a **intermediary between client and server**) has its own disk storage and keeps copies of recently requested objects in this storage.
+
+Once a browser is configured, each browser request for an object is first directed to the Web cache.
+
+For web cache:  
+When it receives requests from and sends responses to a browser, it is a server.   
+When it sends requests to and receives responses from an origin server, it is a client.
+

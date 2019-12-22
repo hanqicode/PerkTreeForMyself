@@ -13,6 +13,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   
 - BackEnd
   - Curl
+  - Maven
 
 - Java/
   - [Jackson](https://github.com/FasterXML/jackson#documentation)

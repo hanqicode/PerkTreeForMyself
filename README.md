@@ -33,6 +33,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 - DynamoDB
 - Kinesis
 - Lambda
+- S3
 - SNS
 - SQS
 

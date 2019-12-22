@@ -67,6 +67,12 @@ public class FriendItem {
 }
 ```
 
+Note:  
+`public` is required. Otherwise, we will see exception:
+```
+IllegalAccessException: com.amazonaws.services.dynamodbv2.datamodeling.StandardBeanProperties cannot access a member of class xxx with modifiers "public".
+```
+
 Sample code for query:
 ```java
 AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard().build();

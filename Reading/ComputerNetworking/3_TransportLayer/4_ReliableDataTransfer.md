@@ -25,7 +25,8 @@ Three additional protocol capabilities are required in ARQ protocols to handle t
 2. **Receiver feedback**. Like: positive(ACK) and negative (NAK).
 3. **Retransmission**. A packet will be re-transmitted by the sender.
 
-### What about when ACK/NAK is corrupted?
+**What about when ACK/NAK is corrupted?**
+
 If ACK/NAK is corrupted when sender receives the feedback from receiver, what should we do?
 1. "What did you say?" - But this can be corrupted again.
 2. Re-send. - It will introduce duplicate packets. But sender can add sequence number to solve this problem.

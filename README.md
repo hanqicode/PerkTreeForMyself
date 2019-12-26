@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - AWS/S3 - [Developer Doc](https://docs.aws.amazon.com/AmazonS3/latest/dev/UsingBucket.html)
-- Reading/Computer Networking - 257/889
+- Reading/Computer Networking - 286/889
 
 # To-do List
 - AWS/

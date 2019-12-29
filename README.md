@@ -4,7 +4,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 > "First, solve the problem. Then, write the code."
 
 # In Progress
-- AWS/S3 - [Developer Doc](https://docs.aws.amazon.com/AmazonS3/latest/dev/UsingObjects.html)
+- AWS/S3 - [Developer Doc](https://docs.aws.amazon.com/AmazonS3/latest/dev/object-tagging.html)
 - Reading/Computer Networking - 286/889
 
 # To-do List

@@ -25,3 +25,16 @@ There are two categories of system metadata:
 
 ### User-Defined Object Metadata
 When uploading an object, you can also assign metadata to the object. 
+
+## Storage Class
+Amazon S3 offers a range of storage classes for the objects that you store. You choose a class depending on your use case scenario and performance access requirements.
+
+See details in [developer guide](https://docs.aws.amazon.com/AmazonS3/latest/dev/storage-class-intro.html)
+
+- **STANDARD** — The default storage class. If you don't specify the storage class when you upload an object, Amazon S3 assigns the STANDARD storage class.
+
+- **REDUCED_REDUNDANCY** — The Reduced Redundancy Storage (RRS) storage class is designed for noncritical, reproducible data that can be stored with less redundancy than the STANDARD storage class.
+
+- **INTELLIGENT_TIERING** - The INTELLIGENT_TIERING storage class is ideal if you want to optimize storage costs automatically for long-lived data when access patterns are unknown or unpredictable.
+
+- **STANDARD_IA** and **ONEZONE_IA** - designed for long-lived and infrequently accessed data. E.g. For storing backups.

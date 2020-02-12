@@ -7,10 +7,10 @@ Here is a template I use:
 ```
 Subject line (less than 50 characters) 
 
-Detailed description (less than 72 characters) (What)
-details
-details
-details
+Details: (less than 72 characters) (What)
+1. details
+2. details
+3. details
 
 SIM: https://issues.amazon.com/issues/CDP-1234 (Why)
 

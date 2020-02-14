@@ -21,10 +21,12 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - [OpenCSV](http://opencsv.sourceforge.net/)
   - Annotation
   - Reflection
+  - Spring
  
 - Reading/
   - Designing Data-Intensive Applications
-  - Redis Cookbook - 34/72
+  - Domain Driven Design
+  - Redis Cookbook
   - Clean Architecture
   - Streaming Systems: The What, Where, When, and How of Large-Scale Data Processing
   - Designing Distrubuted Systems
@@ -65,5 +67,4 @@ All books can be found in Google drive. List by read order.
 - A Philosophy of Software Design
 - Building Evolutionary Architechtures: Support Constant Change
 - Java Design Pattern
-- Domain Driven Design
 - Spock Up & Running

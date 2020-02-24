@@ -19,7 +19,6 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - Guice
   - Spring
   - [Jackson](https://github.com/FasterXML/jackson#documentation)
-  - [OpenCSV](http://opencsv.sourceforge.net/)
 
 # Table of Contents
 ## AWS

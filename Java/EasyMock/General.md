@@ -82,7 +82,7 @@ Some comments:
 3. Use `Build-Operate-Check Pattern` for test.
 4. `@RunWith(EasyMockRunner.class)`: JUnit runner used to process `@Mock` and `@TestSubject` annotations. 
 
-    4.1  Note that this pattern needs to be used for no parameters constructor to do field injection.
+    4.1  Note that this pattern needs to be used for no parameters constructor to do field injection, see [GitHub Issue Request](https://github.com/easymock/easymock/issues/185).
     
     4.2  Note that this runner only works with JUnit 4.5 or higher.
 

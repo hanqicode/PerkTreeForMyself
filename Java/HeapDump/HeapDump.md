@@ -32,7 +32,6 @@ scp username@your_service_host:/tmp/YourFile /Users/xxx/Desktop
 ```
 
 6. Analysis
-There are two ways to analyze the file:
 
     1. jhat(heap analysis tool)
     ```bash

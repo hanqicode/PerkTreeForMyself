@@ -16,14 +16,19 @@ ps aux | grep <Your_Service_Name>
 (sudo -u xxxxx) <path>/jdk1.8/bin/jmap -dump:file=/tmp/YourFile.txt,format=b <process-id-to-dump>
 ```
 
-3. Analysis the file
+3.1 Analysis the file with jhat
 ```bash
 <path>/jdk1.8/bin/jhat </Path/To/File>
 ```
 
-4. Check the webpage
 ```
 It will default use 7000 port. So we should visit: http://localhost:7000/.
+```
+3.2 Analysis with jvisualvm
+```bash
+./jvisualvm
+
+Then load your heap dump file
 ```
 
 ## Reference

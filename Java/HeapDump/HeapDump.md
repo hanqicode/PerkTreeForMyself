@@ -6,12 +6,17 @@ A heap dump is a snapshot of the memory of a Java process.
 The snapshot contains information about the Java objects and classes in the heap at the moment the snapshot is triggered.
 
 ## How to do HeapDump?
-Here we will use a tool named **VisualVM** to do it.
+1. Find process Id about your service
+```bash
+ps aux | grep <Your_Service_Name>
+```
 
-1. Download VisualVM from its home page.
-2. `cd unzip_folder/bin` and `./visualvm` to open the application.
-3. You can see the application in the left area.
+2. Dump to a file
+```bash
+(sudo -u xxxxx) <path>/jdk1.8/bin/jmap -dump:file=/tmp/YourFile.txt,format=b <process-id-to-dump>
+```
 
 ## Reference
 1. [VisualVM](https://visualvm.github.io/).
 1. [Oracle Java VisualVM Guide](https://docs.oracle.com/javase/8/docs/technotes/guides/visualvm/heapdump.html)
+1. [Oracle jmap - Memory Map](https://docs.oracle.com/javase/7/docs/technotes/tools/share/jmap.html)

@@ -32,20 +32,23 @@ scp username@your_service_host:/tmp/YourFile /Users/xxx/Desktop
 ```
 
 6. Analysis
-  6.1 Analysis the file with jhat
-```bash
-<path>/jdk1.8/bin/jhat </Path/To/File>
-```
+There are two ways to analyze the file:
 
-```
-It will default use 7000 port. So we should visit: http://localhost:7000/.
-```
-  6.2 Analysis with jvisualvm
-```bash
-./jvisualvm
+    1. jhat(heap analysis tool)
+    ```bash
+    <path>/jdk1.8/bin/jhat </Path/To/File>
+    ```
 
-Then load your heap dump file
-```
+    ```
+    It will default use 7000 port. So we should visit: http://localhost:7000/.
+    ```
+
+    2. jvisualvm
+    ```bash
+    ./jvisualvm
+
+    Then choose and load your heap dump file through UI
+    ```
 
 ## Reference
 1. [VisualVM](https://visualvm.github.io/).

@@ -7,6 +7,9 @@ The snapshot contains information about the Java objects and classes in the heap
 
 ## How to do HeapDump?
 1. SSH to your service host
+```bash
+ssh your_service_host
+```
 
 2. Find process ID about your service
 ```bash

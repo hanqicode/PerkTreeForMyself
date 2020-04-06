@@ -21,6 +21,9 @@ ps aux | grep <Your_Service_Name>
 <path>/jdk1.8/bin/jhat </Path/To/File>
 ```
 
+4. Check the webpage
+It will default use 7000 port. So we should visit: `http://localhost:7000/`.
+
 ## Reference
 1. [VisualVM](https://visualvm.github.io/).
 1. [Oracle Java VisualVM Guide](https://docs.oracle.com/javase/8/docs/technotes/guides/visualvm/heapdump.html)

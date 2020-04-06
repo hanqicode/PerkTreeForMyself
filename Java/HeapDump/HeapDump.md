@@ -26,7 +26,7 @@ ps aux | grep <Your_Service_Name>
 (sudo -u xxx) chmod 777 YourFile
 ```
 
-5. SCP file to your local laptop
+5. On your local laptop, SCP file back
 ```bash
 scp username@your_service_host:/tmp/YourFile /Users/xxx/Desktop
 ```

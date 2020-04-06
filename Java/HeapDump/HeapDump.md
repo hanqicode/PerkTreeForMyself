@@ -22,7 +22,9 @@ ps aux | grep <Your_Service_Name>
 ```
 
 4. Check the webpage
-It will default use 7000 port. So we should visit: `http://localhost:7000/`.
+```
+It will default use 7000 port. So we should visit: http://localhost:7000/.
+```
 
 ## Reference
 1. [VisualVM](https://visualvm.github.io/).

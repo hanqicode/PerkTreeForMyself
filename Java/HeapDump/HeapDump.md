@@ -18,7 +18,8 @@ ps aux | grep <Your_Service_Name>
 
 3. Dump to a file
 ```bash
-(sudo -u xxxxx) <path>/jdk1.8/bin/jmap -dump:file=/tmp/YourFile,format=b <process-id-to-dump>
+cd <path>/jdk1.8/bin/
+(sudo -u xxxxx) ./jmap -dump:file=/tmp/YourFile,format=b <process-id-to-dump>
 ```
 
 4. Change file permission

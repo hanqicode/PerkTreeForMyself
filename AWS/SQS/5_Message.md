@@ -14,3 +14,7 @@ Link: https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide
 If you receive a message more than once, each time you get it, you get a different Receipt Handle.
 
 You must provide the most recently received Receipt Handle when you request to delete the message.
+
+
+## Message Visibility Timeout
+Link: https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html

@@ -7,9 +7,6 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - Java/Reflection
     1. [Java Reflection](https://juejin.im/post/5dac4edff265da5b5f7588d1)
     2. [Using Java Reflection](https://www.oracle.com/technical-resources/articles/java/javareflection.html)
-  - BackEnd/
-    1. SQS (Review)
-    2. SNS (Review)
 
 # To-do List
 - AWS/

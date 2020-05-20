@@ -4,7 +4,11 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 > "First, solve the problem. Then, write the code."
 
 # In Progress
-  
+- BackEnd/
+  - Memcached
+  - SQL&NoSQL
+- AWS/
+  - DynamoDB [Review]
 
 # To-do List
 - AWS/

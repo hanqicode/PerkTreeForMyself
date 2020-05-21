@@ -1,7 +1,7 @@
 # PerkTreeForMyself
 This is a Bootcamp for me to learn and share software knowledge and skills.
 
-> "First, solve the problem. Then, write the code."
+> "You can never understand everything. But, you should push yourself to understand the system." - Ryan Dahl (Creator of Node JS)
 
 # In Progress
 - BackEnd/

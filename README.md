@@ -5,7 +5,6 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - BackEnd/
-  - Memcached: https://github.com/memcached/memcached/wiki/TutorialCachingStory
   - SQL&NoSQL
 - AWS/
   - DynamoDB [Review]

@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - BackEnd/
-  - SQL&NoSQL
+  - SQL VS NoSQL
 - AWS/
   - DynamoDB [Review]
 

@@ -10,7 +10,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - IAM
   - [Build a Modern Web App](https://aws.amazon.com/getting-started/projects/build-modern-app-fargate-lambda-dynamodb-python/)
   
-- BackEnd
+- BackEnd/
   - [Everything curl](https://ec.haxx.se/cmdline)
   - Maven
 

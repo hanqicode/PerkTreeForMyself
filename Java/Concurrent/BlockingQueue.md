@@ -20,6 +20,8 @@ A queue that supports operations:
 | Remove  | remove()         | poll()        | take() | poll(time, unit)     |
 | Examine | element()        | peek()        | N/A    | N/A                  |
 
+Note: Row title means what will happen if the attempted operation is not possible immediately; 
+
 ## Notes
 1. A BlockingQueue cannot accept `null`. Otherwise, it will throw `NullPointerException`.
 2. A BlockingQueue can be capacity bounded or unbounded.

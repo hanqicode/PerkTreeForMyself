@@ -30,7 +30,7 @@ Note: Row title means what will happen if the attempted operation is not possibl
 
 ## Example
 ```java
- public class Demo {
+public class Demo {
 
     public static void main(String[] args) throws Exception {
         BlockingQueue<Integer> blockingQueue = new ArrayBlockingQueue<Integer>(1000);

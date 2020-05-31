@@ -30,37 +30,64 @@ Note: Row title means what will happen if the attempted operation is not possibl
 
 ## Example
 ```java
- class Producer implements Runnable {
-   private final BlockingQueue queue;
-   Producer(BlockingQueue q) { queue = q; }
-   public void run() {
-     try {
-       while (true) { queue.put(produce()); }
-     } catch (InterruptedException ex) { ... handle ...}
-   }
-   Object produce() { ... }
- }
+ public class Demo {
 
- class Consumer implements Runnable {
-   private final BlockingQueue queue;
-   Consumer(BlockingQueue q) { queue = q; }
-   public void run() {
-     try {
-       while (true) { consume(queue.take()); }
-     } catch (InterruptedException ex) { ... handle ...}
-   }
-   void consume(Object x) { ... }
- }
+    public static void main(String[] args) throws Exception {
+        BlockingQueue<Integer> blockingQueue = new ArrayBlockingQueue<Integer>(1000);
 
- class Setup {
-   void main() {
-     BlockingQueue q = new SomeQueueImplementation();
-     Producer p = new Producer(q);
-     Consumer c1 = new Consumer(q);
-     Consumer c2 = new Consumer(q);
-     new Thread(p).start();
-     new Thread(c1).start();
-     new Thread(c2).start();
-   }
- }
+        Producer producer = new Producer(blockingQueue);
+        Consumer consumer = new Consumer(blockingQueue);
+
+        new Thread(consumer).start();
+
+        for (int i = 0; i < 100; i++) {
+            producer.produce(i);
+            Thread.sleep(1000L);
+        }
+
+        System.out.println("-- End --");
+    }
+}
+
+@RequiredArgsConstructor
+public class Producer{
+
+    @NonNull
+    private BlockingQueue<Integer> blockingQueue;
+
+    public void produce(Integer i) {
+        try {
+            blockingQueue.put(i);
+        } catch (InterruptedException e) {
+            System.out.println("Exception when putting a new element. " + e);
+        }
+    }
+}
+
+@RequiredArgsConstructor
+public class Consumer implements Runnable {
+
+    @NonNull
+    private BlockingQueue<Integer> blockingQueue;
+
+    @Override
+    public void run() {
+        while (true) {
+            if (!blockingQueue.isEmpty()) {
+                consume();
+            }
+        }
+    }
+
+    private void consume() {
+        System.out.println("[Queue] current queue size: " + blockingQueue.size());
+
+        try {
+            Integer i = blockingQueue.take();
+            System.out.println("Now processing: " + i);
+        } catch (InterruptedException e) {
+            System.out.println("Exception when taking a new element. " + e);
+        }
+    }
+}
 ```

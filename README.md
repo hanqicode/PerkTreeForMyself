@@ -4,6 +4,8 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 > "You can never understand everything. But, you should push yourself to understand the system." - Ryan Dahl (Creator of Node JS)
 
 # In Progress
+- Java/
+  - Guice
 
 # To-do List
 - AWS/
@@ -15,10 +17,6 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - Maven
 
 - Java/
-  - Reflection
-    1. [Java Reflection](https://juejin.im/post/5dac4edff265da5b5f7588d1)
-    2. [Using Java Reflection](https://www.oracle.com/technical-resources/articles/java/javareflection.html)
-  - Guice
   - Spring
   - [Jackson](https://github.com/FasterXML/jackson#documentation)
 

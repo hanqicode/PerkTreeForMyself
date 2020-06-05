@@ -8,7 +8,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 # To-do List
 - AWS/
   - IAM
-  - [Build a Modern Web App](https://aws.amazon.com/getting-started/projects/build-modern-app-fargate-lambda-dynamodb-python/)
+  - [Build a Basic Web App](https://aws.amazon.com/getting-started/hands-on/build-web-app-s3-lambda-api-gateway-dynamodb/?e=gs2020&p=fullstack)
   
 - BackEnd/
   - [Everything curl](https://ec.haxx.se/cmdline)

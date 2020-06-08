@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - Java/
-  - [Guice](https://github.com/google/guice/wiki/Motivation)
+  - [Guice - MentalModel](https://github.com/google/guice/wiki/MentalModel)
 
 # To-do List
 - AWS/

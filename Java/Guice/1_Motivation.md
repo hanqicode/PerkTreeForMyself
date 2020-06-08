@@ -74,3 +74,15 @@ public class RealBillingService implements BillingService {
   }
 }
 ```
+
+Finally, we need to register `BillingModule` in main function:
+```java
+public static void main(String[] args) {
+    Injector injector = Guice.createInjector(new BillingModule());
+    BillingService billingService = injector.getInstance(BillingService.class);
+    ...
+}
+```
+
+So if we have another class defined in `BillingModule`, we don't need to create a new instance in main function and we don't 
+need to make any change. Because all of them are contained in `BillingModule`.

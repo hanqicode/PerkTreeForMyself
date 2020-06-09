@@ -11,12 +11,12 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
   - [Build a Basic Web App](https://aws.amazon.com/getting-started/hands-on/build-web-app-s3-lambda-api-gateway-dynamodb/?e=gs2020&p=fullstack)
   
 - BackEnd/
-  - [Everything curl](https://ec.haxx.se/cmdline)
   - Maven
+  - [Everything curl](https://ec.haxx.se/cmdline)
+
 
 - Java/
   - Spring
-  - [Jackson](https://github.com/FasterXML/jackson#documentation)
 
 # Table of Contents
 ## AWS

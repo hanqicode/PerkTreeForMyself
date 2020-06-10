@@ -23,6 +23,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 ## AWS
 - CloudWatch
 - DynamoDB
+- IAM
 - Kinesis
 - Lambda
 - S3

@@ -4,15 +4,13 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 > "You can never understand everything. But, you should push yourself to understand the system." - Ryan Dahl (Creator of Node JS)
 
 # In Progress
-- [Build a Basic Web App](https://aws.amazon.com/getting-started/hands-on/build-web-app-s3-lambda-api-gateway-dynamodb/?e=gs2020&p=fullstack)
+- Java/
+  - [Spring](https://spring.io/)
 
 # To-do List  
 - BackEnd/
   - [Maven](https://maven.apache.org/)
   - [Everything curl](https://ec.haxx.se/cmdline)
-
-- Java/
-  - [Spring](https://spring.io/)
 
 # Table of Contents
 ## AWS

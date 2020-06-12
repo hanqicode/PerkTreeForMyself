@@ -4,12 +4,15 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 > "You can never understand everything. But, you should push yourself to understand the system." - Ryan Dahl (Creator of Node JS)
 
 # In Progress
+- BackEnd/
+  - Maven: https://maven.apache.org/
+  - Maven: https://spring.io/guides/gs/maven/
+
+# To-do List
 - Java/
   - [Spring](https://spring.io/quickstart)
-
-# To-do List  
+  
 - BackEnd/
-  - [Maven](https://maven.apache.org/)
   - [Everything curl](https://ec.haxx.se/cmdline)
 
 # Table of Contents

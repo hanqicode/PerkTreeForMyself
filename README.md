@@ -10,7 +10,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # To-do List
 - Java/
-  - [Spring](https://spring.io/quickstart)
+  - [Spring Boot Documentation](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#legal)
   
 - BackEnd/
   - [Everything curl](https://ec.haxx.se/cmdline)

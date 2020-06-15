@@ -4,14 +4,9 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 > "You can never understand everything. But, you should push yourself to understand the system." - Ryan Dahl (Creator of Node JS)
 
 # In Progress
-- Java/
-  - [Spring Boot Documentation](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#legal)
-  - MyService
+
 
 # To-do List
-- AWS
-  - AWS Elastic Beanstalk
-
 - BackEnd/
   - [Everything curl](https://ec.haxx.se/cmdline)
 

@@ -8,7 +8,7 @@ Distributed memory object caching system.
 
 ## What it Does?
 With traditional cache, each host must have same data in each memory considering to keep the cache **consistent**.
-But each host can only use 64MB memory (for example).
+But each host can only use 16G memory (for example).
 
 With Memcached, all of hosts are looking into the same virtural pool of memory which can combine each usable memory.
 

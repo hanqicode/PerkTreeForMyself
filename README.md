@@ -8,7 +8,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # To-do List
 - MachineLearning
-  - C
+  - Coursera Andrew Ng
 - BackEnd/
   - [Everything curl](https://ec.haxx.se/cmdline)
 

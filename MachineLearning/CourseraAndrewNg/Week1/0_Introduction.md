@@ -11,7 +11,6 @@
 Others: Reinforcement learning, recommender systems.
 
 ## Supervised Learning
-
 **Regression Problem**: Predict continuous valued output.
 
 Say "right answers" are given, to predict new "right answers". 
@@ -20,3 +19,6 @@ E.g. given a list of (square feet, price) to predict the price of a new house wi
 **Classification Problem**: Discrete valued output(0 or 1).
 
 Say predict breast cancer based on its tumor size, then it only has two result: malignant or benign.
+
+## Unsupervised Learning
+Just have a data set without any label, but it can be generated into some clusters with certain rules. E.g. Whack.

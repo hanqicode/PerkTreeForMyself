@@ -19,6 +19,4 @@ E.g. given a list of (square feet, price) to predict the price of a new house wi
 
 **Classification Problem**: Discrete valued output(0 or 1).
 
-Say predict breast cancer, then it only has two result: malignant or benign.
-
-
+Say predict breast cancer based on its tumor size, then it only has two result: malignant or benign.

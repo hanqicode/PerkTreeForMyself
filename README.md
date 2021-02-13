@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - MachineLearning/
-  - Coursera Andrew Ng/Week1 - Model and Cost Function
+  - Coursera Andrew Ng/Week1 - Parameter Learning
 
 # To-do List
 - BackEnd/

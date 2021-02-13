@@ -29,3 +29,9 @@ Cost function:
 
 1. We want to minimize `J(a, b)`;
 2. We have `1/2` here as a convenience for the computation of the gradient descent;
+
+## Cost Function - Intuition
+- Hypothesis: h(x) = a + b * x;
+- Parameters: a, b;
+- Cost Function: J(a, b) = 1 / (2m) * SUM(1...m) of (h - y) ^ 2;
+- Goal: minimize J(a, b);

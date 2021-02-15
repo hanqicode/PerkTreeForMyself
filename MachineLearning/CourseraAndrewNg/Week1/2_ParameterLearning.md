@@ -16,6 +16,18 @@ b = b - α * D[J(a, b)) on b];
 ```
 
 - α: learning rate. It controls how aggressive we make a step each round;
-- D: derivation.
-- We need to update a and b simultaneously in each round;
+- D: derivation. It is the slope of the point;
+- We need to update `a` and `b` simultaneously in each round;
+
+## Gradient Descent Intuition
+For `α`(learning rate):
+- If `α` is too small, gradient descent can be slow.
+- If `α` is too large, gradient descent can overshooot the minimum. It may fail to converge, or even diverge.
+
+If `a` is at local optima value, then new `a` value will remain; Because its slope is 0;
+
+Gradient descent can converge to a local minimum, even with the learning rate `α` fixed.
+
+As we approach a local mininum, gradient descentwill automatically take smaller steps because **the slope will become smaller**.
+So, no need to decrease `α` over time.
 

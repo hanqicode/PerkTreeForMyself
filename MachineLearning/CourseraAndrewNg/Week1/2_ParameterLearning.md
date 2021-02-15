@@ -31,3 +31,15 @@ Gradient descent can converge to a local minimum, even with the learning rate `Î
 As we approach a local mininum, gradient descentwill automatically take smaller steps because **the slope will become smaller**.
 So, no need to decrease `Î±` over time.
 
+## Gradient Descent For Linear Regression
+For derivation: 
+```
+D[J(a, b) on a] = 1 / m * SUM(1..m) of (h - y);
+D[J(a, b) on b] = 1 / m * SUM(1..m) of (h - y) * x;
+```
+
+### Convex Function
+For our linear regression with one variable(`h(x) = a + b * x`), it is a Convex Function which is bowl shaped and only has one global optimum. 
+
+### Batch Gradient Descent
+Batch: Each step of gradient descent uses **all** the training examples.

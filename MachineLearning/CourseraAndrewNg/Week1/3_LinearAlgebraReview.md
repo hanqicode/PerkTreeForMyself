@@ -65,3 +65,28 @@ Denoted `I`;
 [0 1 0]
 [0 0 1]
 ```
+
+## Inverse and Transpose
+
+### Inverse
+- Recall: `3 * 1/3 = 1`;
+- Not all numbers have an inverse; e.g. 0;
+
+Matrix Inverse: If A is an `m * m` matrix, and if it has an inverse:
+```
+A * 1/A = 1/A * A = I
+```
+
+Matrices that don't have an inverse are "singular" or "degenerate";
+
+### Transpose
+Row becomes column;
+
+```
+A = [1 2 0]
+    [3 5 9]
+
+AT = [1 3]
+     [2 5]
+     [0 9]
+```

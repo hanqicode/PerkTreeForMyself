@@ -47,3 +47,21 @@ How to multiply two matrices?
 `3 * 2 matrix` * `2 * 1 matrix` = `3 * 1 matrix`;
 
 ## Matrix-matrix Multiplication
+`a * b` * `b * c` = `a * c`;
+
+## Matrix Multiplication Properties
+- `A * B != B * A`; "not commutative" (except Identity Matrix)
+- `(A * B) * C = A * (B * C)`; "associative"
+
+
+### Identity Matrix
+Denoted `I`;
+
+```
+[1 0]
+[0 1]
+
+[1 0 0]
+[0 1 0]
+[0 0 1]
+```

@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - MachineLearning/
-  - Coursera Andrew Ng/Week1 - Linear Algebra Review
+  - Coursera Andrew Ng/Week2 - Set Up Octave
 
 # To-do List
 - BackEnd/

@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - MachineLearning/
-  - Coursera Andrew Ng/Week2 - Set Up Octave
+  - Coursera Andrew Ng/Week2 - Multivariate Linear Regression
 
 # To-do List
 - BackEnd/

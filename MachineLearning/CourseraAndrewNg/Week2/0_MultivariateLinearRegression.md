@@ -29,3 +29,10 @@ h(x) = A(T) * X;
 A(T) is A's transpose vector;
 X is a vector
 ```
+
+## Gradient Descent for Multiple Variables
+When we have n features:
+```
+T(j) = T(j) - α * 1/m * SUM(1...m) of (h(x) - y) * x;
+(simultaneously update T(j) for j = 0, 1, ..., n)
+```

@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - MachineLearning/
-  - Coursera Andrew Ng/Week2 - Multivariate Linear Regression
+  - Coursera Andrew Ng/Week2 - Computing Parameters Analytically
 
 # To-do List
 - BackEnd/

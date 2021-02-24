@@ -36,3 +36,24 @@ When we have n features:
 T(j) = T(j) - α * 1/m * SUM(1...m) of (h(x) - y) * x;
 (simultaneously update T(j) for j = 0, 1, ..., n)
 ```
+
+## Gradient Descent In Practice - Feature Scaling
+Idea: Make sure features are on a similar scale.
+```
+x1 = size(0 ~ 2000 feets); 
+x2 = number of bedrooms(1 ~ 5);
+```
+
+Here is how we process:
+```
+x1 = size / 2000;
+x2 = number of bedrooms / 5;
+```
+
+### Implementation
+1. Divided by max/min; (to get every feature into approximately a `-1 <= x <= 1` range)
+2. Mean normalization; (replace x with x - u to make features have approximately zero mean)
+
+## Gradient Descent In Practice - Learning Rate
+- For sufficiently small `α`, J(cost function) should decrease on every iteration.
+- But if `α` is too small, the convergence would be slow.

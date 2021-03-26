@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - MachineLearning/
-  - Coursera Andrew Ng/Week3 - Classification and Representation
+  - Coursera Andrew Ng/Week3 - Solving the problem of Overfitting
 
 # To-do List
 - BackEnd/

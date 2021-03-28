@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - MachineLearning/
-  - Coursera Andrew Ng/Week4 - Neural Networks: Motivation
+  - Coursera Andrew Ng/Week4 - Neural Networks
 
 # To-do List
 - BackEnd/

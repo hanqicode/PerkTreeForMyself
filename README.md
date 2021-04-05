@@ -7,7 +7,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 - MachineLearning/
   - Coursera Andrew Ng/Week5 - Backpropagation in Practice
 - FrontEnd/
-  - Angular/https://angular.io/start
+  - jQuery/https://jquery.com/
 
 # To-do List
 - BackEnd/
@@ -37,6 +37,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 ## FrontEnd
 - Angular
+- jQuery
 
 ## Java
 - Annotation

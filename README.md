@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - MachineLearning/
-  - Coursera Andrew Ng/Week5 - Backpropagation in Practice
+  - Coursera Andrew Ng/Week6 - Evaluating a Learning Algorithm
 - FrontEnd/
   - jQuery/https://jquery.com/
 

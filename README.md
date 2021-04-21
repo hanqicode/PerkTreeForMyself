@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - MachineLearning/
-  - Coursera Andrew Ng/Week6 - Building a Spam Classifier
+  - Coursera Andrew Ng/Week6 - Handling Skewed Data
 - FrontEnd/
   - jQuery/https://jquery.com/
 

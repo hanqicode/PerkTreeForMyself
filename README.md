@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - MachineLearning/
-  - Coursera Andrew Ng/Week6 - Handling Skewed Data
+  - Coursera Andrew Ng/Week7 - Large Margin Classification
 - FrontEnd/
   - jQuery/https://jquery.com/
 

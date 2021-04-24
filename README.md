@@ -4,8 +4,6 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 > "You can never understand everything. But, you should push yourself to understand the system." - Ryan Dahl (Creator of Node JS)
 
 # In Progress
-- MachineLearning/
-  - Coursera Andrew Ng/Week7 - Large Margin Classification
 - FrontEnd/
   - jQuery/https://jquery.com/
 

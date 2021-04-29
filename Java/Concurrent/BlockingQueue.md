@@ -50,7 +50,7 @@ public class Demo {
 }
 
 @RequiredArgsConstructor
-public class Producer{
+public class Producer {
 
     @NonNull
     private BlockingQueue<Integer> blockingQueue;

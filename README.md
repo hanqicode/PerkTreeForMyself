@@ -4,12 +4,13 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 > "You can never understand everything. But, you should push yourself to understand the system." - Ryan Dahl (Creator of Node JS)
 
 # In Progress
-- FrontEnd/
-  - jQuery/https://jquery.com/
+
 
 # To-do List
 - BackEnd/
   - [Everything curl](https://ec.haxx.se/cmdline)
+- FrontEnd/
+  - jQuery/https://jquery.com/
 
 # Table of Contents
 ## AWS

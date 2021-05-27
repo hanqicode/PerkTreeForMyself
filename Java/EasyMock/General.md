@@ -79,7 +79,7 @@ public class EasyMockExample extends EasyMockSupport {
 Some comments:
 1. Extending or creating an object `EasyMockSupport` is useful but not mandatory. It allows to call `replayAll`, `resetAll` and `verifyAll`.
 2. Use `createStrictMock` to check call order.
-3. Use `Build-Operate-Check Pattern` for test.
+3. Use `Build-Operate-Check Pattern` or `Arrange-Act-Assert` for test.
 4. `@RunWith(EasyMockRunner.class)`: JUnit runner used to process `@Mock` and `@TestSubject` annotations. 
 
     4.1  Note that this pattern needs to be used for no parameters constructor to do field injection, see [GitHub Issue Request](https://github.com/easymock/easymock/issues/185).

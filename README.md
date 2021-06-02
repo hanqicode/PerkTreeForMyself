@@ -50,6 +50,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 - Lambda
 - Log
 - Lombok
+- Mockito
 
 ## MachineLearning
 - Coursera

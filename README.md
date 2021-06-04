@@ -9,8 +9,8 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 # To-do List
 - BackEnd/
   - [Everything curl](https://ec.haxx.se/cmdline)
-- FrontEnd/
-  - jQuery/https://jquery.com/
+- Java/
+  - Concurrency
 
 # Table of Contents
 ## AWS

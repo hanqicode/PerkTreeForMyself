@@ -10,7 +10,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 - BackEnd/
   - [Everything curl](https://ec.haxx.se/cmdline)
 - Java/
-  - Concurrency
+  - Concurrency (from Reading)
 
 # Table of Contents
 ## AWS

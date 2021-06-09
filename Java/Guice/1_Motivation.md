@@ -2,7 +2,7 @@
 
 ## What is Dependency Injection?
 **Dependency Injection(DI)** is a design pattern wherein 
-classes declare their dependencies as arguments instead of creating those dependencies directly internally.
+classes declare their dependencies as **arguments** instead of creating those dependencies directly internally.
 
 For example, a client that wishes to call a service should not have to know how to construct the service, rather, 
 some external code is responsible for providing the service to the client.

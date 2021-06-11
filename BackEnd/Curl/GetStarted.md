@@ -1,5 +1,5 @@
 # Get Started
-See [Everything curl](https://curl.haxx.se/book.html).
+See [Everything curl](https://everything.curl.dev/).
 
 ## What is Curl?
 Curl is used in command lines or scripts to transfer data.

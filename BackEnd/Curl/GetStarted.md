@@ -3,12 +3,12 @@ See [Everything curl](https://everything.curl.dev/).
 Or [curl Tutorial](https://curl.se/docs/httpscripting.html).
 
 ## Background
-## What is Curl?
+### What is Curl?
 It is a client-side program, a URL client. So we call it CURL.
 
 It makes the requests, it gets the data, it sends data and it retrieves the information.
 
-## See the Protocol
+### See the Protocol
 Using curl's option `--verbose` (`-v` as a short option) will display what kind of commands curl sends to the server, 
 as well as a few other informational texts.
 ```shell
@@ -23,7 +23,7 @@ curl -v http://www.google.com
 > Accept: */*
 ```
 
-## See the Response
+### See the Response
 By default curl sends the response to stdout. 
 You need to redirect it somewhere to avoid that, most often that is done with `-o` or `-O`.
 ```shell

@@ -83,3 +83,20 @@ FROM customer c
 GROUP BY c.first_name, c.last_name
 HAVING count(*) >= 40;
 ```
+
+## Order By
+```sql
+SELECT c.first_name
+FROM customer c
+ORDER BY c.age;
+```
+
+### Ascending or Descending
+The default is asec. You can add `desc` if you need.
+```sql
+ORDER BY c.age desc;
+```
+### Sort via Numeric Placeholders
+```sql
+ORDER BY 3;
+```

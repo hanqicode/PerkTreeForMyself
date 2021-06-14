@@ -58,3 +58,20 @@ WHERE xxxx;
 ```
 
 ## Where
+```sql
+SELECT  title
+FROM film
+WHERE film.rating = 'G' 
+  AND film.duration >= 7; 
+```
+
+```sql
+SELECT  title
+FROM film
+WHERE 
+  (film.rating = 'G' AND film.duration >= 7)
+  OR
+  (film.rating = 'F' AND file.duration >= 10);
+```
+
+## Group By and Having

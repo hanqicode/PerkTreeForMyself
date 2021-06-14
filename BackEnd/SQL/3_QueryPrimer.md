@@ -39,3 +39,22 @@ The from clause defines:
 1. the tables used by a query
 2. along with the means of linking the tables together
 
+### Table Links
+```sql
+SELECT customer.name, rental_time
+FROM customer 
+  JOIN rental
+  ON customer.customer_id = rental.customer_id
+WHERE xxxx;
+```
+
+### Table Alias
+```sql
+SELECT c.first_name, r.rental_time
+FROM customer AS c
+  JOIN rental AS r
+  ON c.customer_id = r.customer_id
+WHERE xxxx;
+```
+
+## Where

@@ -11,3 +11,31 @@ Once the server has verified you and issued you a connection, you are ready to e
 Then the **query optimizer** will determine the most efficient way to execute your query.
 
 ## Query Clauses
+- Select: which columns to include in the result set;
+- From: identify tables from which to retrieve data and how the tables should be joined;
+- Where: filter out unwanted data;
+- Group By: group rows together by common column values;
+- Having: filter out unwanted groups;
+- Order By: sort rows of the final result set by one or more columns;
+
+## Select
+It is one of the **last** clauses that the database server evaluates.
+
+### Column Alias
+```sql
+SELECT language_id AS id
+FROM language;
+```
+
+### Removing Duplicates
+```sql
+SELECT DISTINCT actor_id
+FROM actors
+ORDER BY actor_id;
+```
+
+## From
+The from clause defines:
+1. the tables used by a query
+2. along with the means of linking the tables together
+

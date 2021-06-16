@@ -11,7 +11,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 - Java/
   - Concurrency (from Reading)
 - Python/
-  - Language
+  - Language [Tutorial](https://www.liaoxuefeng.com/wiki/1016959663602400)
   - Colab
 
 # Table of Contents

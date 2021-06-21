@@ -46,6 +46,3 @@ and then visit each row of the customer table to find only rows whose first name
 Every time a row is added to or removed from a table, all indexes on that table must be modified.
 
 Therefore, the more indexes you have, the more work the server needs to do to keep all schema objects up-to-date, which tends to slow things down.
-
-## Constraints
-dd

@@ -19,6 +19,3 @@ and the second approach can be problematic if there are long-running queries whi
 
 ## What is a Transaction?
 A device for grouping together multiple SQL statements such that either all or none of the statements succeed (a property known as **atomicity**).
-
-### Starting a Transaction
-//

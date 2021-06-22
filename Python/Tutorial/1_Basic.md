@@ -51,3 +51,18 @@ E.g. 用记事本编辑的时候，从文件读取的UTF-8字符被转换为Unic
 
 ## String
 在最新的Python 3版本中，字符串是以Unicode编码的，所以支持多种语言。
+
+```python
+>>> len('ABC')
+3
+>>> len('中文')
+2
+```
+
+## Format
+```python
+>>> 'Hello, %s' % 'world'
+'Hello, world'
+>>> 'Hi, %s, you have $%d.' % ('Michael', 1000000)
+'Hi, Michael, you have $1000000.'
+```

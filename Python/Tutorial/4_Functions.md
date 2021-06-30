@@ -39,3 +39,14 @@ def get_sum(a, b):
         raise TypeError("a and b must be Integer")
     return a + b
 ```
+
+## Parameters
+```python
+def power(x, n=2):
+    res = 1
+    while n > 0:
+        res *= x
+        n -= 1
+    return res
+```
+

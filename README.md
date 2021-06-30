@@ -5,7 +5,7 @@ This is a Bootcamp for me to learn and share software knowledge and skills.
 
 # In Progress
 - Python/
-  - Language [Functions](https://www.liaoxuefeng.com/wiki/1016959663602400/1017105145133280)
+  - Language [Advanced](https://www.liaoxuefeng.com/wiki/1016959663602400/1017269809315232)
 
 # To-do List
 - Java/
